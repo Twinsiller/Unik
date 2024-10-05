@@ -1,75 +1,71 @@
+import numpy as np
 import matplotlib.pyplot as plt
-import math
+from scipy.optimize import minimize_scalar
 
 
-def pr1(R, E, C, a=0, b=1000):
-    u = []
+def primer1():
+    # Функция для вычисления объема ведра (конуса)
+    def volume(theta, R):
+        r = (R * theta) / (2 * np.pi)  # Радиус основания конуса
+        h = np.sqrt(R**2 - r**2)       # Высота конуса
+        return (1/3) * np.pi * r**2 * h  # Объем конуса
 
-    for t in range(a, b):
-        expu = math.exp(-(1 / (R * C)) * t)
-        u.append((E / R) * expu)
-        '''i.append(E/R)'''
+    # Найдем угол theta, при котором объем максимален
+    def find_max_volume(R):
+        # Оптимизация объема по углу theta
+        result = minimize_scalar(lambda theta: -volume(theta, R), bounds=(0, 2 * np.pi), method='bounded')
+        return result.x, -result.fun
 
-    plt.plot(range(a, b), u)
+    # Радиус исходного круга
+    R = 1  # например, 1 метр
+
+    # Найдем оптимальный угол и максимальный объем
+    optimal_theta, max_vol = find_max_volume(R)
+
+    # Вывод результатов
+    print(f"Оптимальный угол вырезания сектора: {np.degrees(optimal_theta):.2f} градусов")
+    print(f"Максимальный объем ведра: {max_vol:.4f} кубических метров")
+
+    # Построение графика объема в зависимости от угла вырезания
+    thetas = np.linspace(0, 2*np.pi, 100)
+    volumes = [volume(theta, R) for theta in thetas]
+
+    plt.plot(np.degrees(thetas), volumes)
+    plt.xlabel("Угол вырезания сектора (градусы)")
+    plt.ylabel("Объем ведра (кубические метры)")
+    plt.title("Зависимость объема ведра от угла вырезания сектора")
+    plt.grid(True)
     plt.show()
 
+def primer2():
+    from scipy.optimize import linprog
 
-def pr2(R, E, L, a=0, b=1000):
-    i = []
+    # Коэффициенты функции цели (прибыли)
+    c = [-1500, -2100]  # Минимизируем отрицательную прибыль (т.к. linprog ищет минимум)
 
-    for t in range(a, b):
-        expu = math.exp(-R / L * t)
-        i.append(E * expu)
-        '''i.append(E/R)'''
+    # Коэффициенты ограничений
+    A = [
+        [50, 40],  # Ограничение по золоту
+        [30, 50]  # Ограничение по платине
+    ]
 
-    plt.plot(range(a, b), i)
-    plt.show()
+    # Пределы по ресурсам
+    b = [1500, 1800]
 
+    # Границы переменных (x1 >= 0 и x2 >= 0)
+    x_bounds = (0, None)
 
-def pr3(R1, R2, E, C, L, a=0, b=1000):
-    h = 1 - (4 * C * L * R2 * (R1 + R2))
-    o = ((E * R2) / (C * L * (R1 + R2))) * (1 + ((L + R1 * R2 * C) / (2 * C * L * R2)) * (
-            1 + (h / (L + R1 * R2 * C))))
-    l = 2 * h
-    a2 = o / l
-    a1 = -a2 - (E * R) / (C * L * (R1 + R2))
+    # Решение задачи линейного программирования
+    res = linprog(c, A_ub=A, b_ub=b, bounds=[x_bounds, x_bounds], method='highs')
 
-    u = []
-
-    for t in range(a, b):
-        z = a1 * math.exp(-((L + R1 * R2 * C) / (2 * C * L * R2)) * (1 + h) * t)
-        x = a2 * math.exp(-((L + R1 * R2 * C) / (2 * C * L * R2)) * (1 - h) * t)
-        c = (E * R2) / (C * L * (R1 + R2))
-        u.append(z + x + c)
-        '''i.append(E/R)'''
-
-    plt.plot(range(a, b), u)
-    plt.grid()
-    plt.show()
+    # Результаты
+    if res.success:
+        print(f"Оптимальное количество часов 'Банкир': {res.x[0]:.2f}")
+        print(f"Оптимальное количество часов 'Президент': {res.x[1]:.2f}")
+        print(f"Максимальная прибыль: {-res.fun:.2f} долларов")
+    else:
+        print("Решение не найдено")
 
 
-# Запуск 1
-# R = 1000  # Сопротивление (На 1 резисторе)
-# E = 12  # Напряжение
-# C = 0.05  # Ёмкость
-# a = 0  # Начало времени
-# b = 1000  # Конец времени
-# pr1(R, E, C, a, b)
-
-# Запуск 2
-R = 1000  # Сопротивление (На 1 резисторе)
-E = 12  # Напряжение
-L = 1e5  # Индуктивность
-a = 0  # Начало времени
-b = 1000  # Конец времени
-pr2(R, E, L, a, b)
-
-# Запуск 3
-# R = 100  # Сопротивление (На 1 резисторе)
-# R2 = 300  # Сопротивление (На 2 резисторе)
-# E = 12.0  # Напряжение
-# C = 10  # Ёмкость
-# L = 0.01  # Индуктивность
-# a = 0  # Начало времени
-# b = 3  # Конец времени
-# pr3(R, R2, E, C, L, a, b)
+primer1()
+#primer2()
