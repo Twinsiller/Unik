@@ -1,9 +1,9 @@
-.post_mini {
+.post-mini {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 10px;
     
-    width: 250px;
-    height: 250px;
+    width: 270px;
+    height: 270px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgb(0, 0, 0)80%),
     url('img/kakashi-ava.png');
     background-size: cover; /* Подгоняет картинку под размер блока */
@@ -16,32 +16,29 @@
     display: flex;
     flex-direction: column; /* Ставит элементы вертикально */
     justify-content: flex-end; /* Выровнять элементы снизу */
-    /* justify-items: start; */
-    align-items: center; /* Центрировать по горизонтали */
-    
+    justify-items: stretch;
+     /* Центрировать по горизонтали */
+
+     /* Выравнивание заголовка по левому краю */  /* Заголовок занимает всю ширину контейнера */
+    padding: 15px;
+}
+.post-mini .content-main{
+    align-items: left;
+    margin-bottom: 15px;
+}
+.post-mini .content-main .title{
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
-.post_mini .title {
-    font-size: 18px;
-    text-align: left; /* Выравнивание заголовка по левому краю */
-    /*width: 100%;  Заголовок занимает всю ширину контейнера */
-    margin: 10% 5%; /* Отступы сверху и снизу для красоты */
-}
 
 .content-bottom {
     display: flex; /* Включаем Flexbox */
     justify-content: space-between; /* Элементы: слева, по центру, справа */
     align-items: center; /* Выравниваем элементы вертикально */
     width: 100%; /* Контейнер занимает всю ширину */
-    padding-bottom: 5%; /* Отступы по бокам (по желанию) */
     color: white; /* Цвет текста (для видимости) */
-}
-.content-bottom-left{
-    padding-left: 5%; /* Элементы не растягиваются */
-}
-
-.content-bottom-right {
-    padding-right: 5%; /* Элементы не растягиваются */
 }
 
 

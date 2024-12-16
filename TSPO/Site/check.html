@@ -8,8 +8,19 @@
   <link rel="stylesheet" href="check_styles.css">
 </head>
 <body>
-    <div class="post_mini">
-        <h3 class="title">Название</h3>
+    <div class="post-mini">
+        <div class = "content-main">
+            <h3 class="title">Название</h3>
+            <span class="brief-information">
+                С другой стороны начало повседневной работы
+                по формированию позиции требуют от нас анализа
+                новых предложений. С другой стороны 
+                консультация с широким активом в 
+                значительной степени обуславливает 
+                создание систем массового участия.
+            </span>
+        </div>
+        
         <div class = "content-bottom">
             <div class = "content-bottom-left">
                 <span class = "likes">145</span>
@@ -27,3 +38,27 @@
         </div>
     </div>
 </body>
+
+
+
+
+<script>
+    // Выбираем все элементы с классом post_mini
+    document.querySelectorAll('.post_mini').forEach(postMini => {
+        // Добавляем обработчики событий при наведении мыши
+        postMini.addEventListener('mouseenter', () => {
+            const info = postMini.querySelector('.brief-information');
+            if (info) {
+                info.style.display = 'block';
+            }
+        });
+  
+        // Убираем brief-information при уходе мыши
+        postMini.addEventListener('mouseleave', () => {
+            const info = postMini.querySelector('.brief-information');
+            if (info) {
+                info.style.display = 'none';
+            }
+        });
+    });
+  </script>
