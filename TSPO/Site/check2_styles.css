@@ -1,9 +1,50 @@
 .profile-mini{
-    width: 140px;
-    height: 50px;
+    width: 289.5px;
+    height: 90px;
+    background-color: #1E1E1E;
+    
+    
+
+    display: flex; /* Включаем Flexbox */
+    justify-content: space-between; /* Элементы: слева, по центру, справа */
+    padding: 11.25px;
+    gap: 7.5px;
 }
 
-.status-image{
-    width: 10px;
-    height: 10px;
+.avatar img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+} 
+
+
+.information {
+    width: 187.5px;
+    height: 89.75px;
+    font-size: 15px;
+    color: aliceblue;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    gap: 7.5px;
+}
+.information .Nickname {
+    width: 180px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 24px;
+    justify-self:right;
+}
+.status {
+    display: flex; /* Включаем Flexbox */
+    justify-content:last baseline; /* Элементы: слева, по центру, справа */
+    gap: 10px;
+}
+.status img{
+    width: 15px;
+    height: 15px;
+    justify-self: center;
 }

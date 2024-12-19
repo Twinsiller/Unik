@@ -5,7 +5,7 @@
     width: 270px;
     height: 270px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 15%, rgb(0, 0, 0)80%),
-    url('img/kakashi-ava.png');
+    url('img/avatar.png');
     background-size: cover; /* Подгоняет картинку под размер блока */
     background-position: center; /* Центрирует картинку */
     border-radius: 10px;
