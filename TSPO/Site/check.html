@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sidebar and Main Content</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="check_styles.css">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/check_styles.css">
+  <script src="scripts/file.js"></script>
 </head>
 <body>
     <div class="post-mini">
@@ -20,6 +21,16 @@
                 создание систем массового участия.
             </span>
         </div>
+        <style>
+            @keyframes moveUp {
+                0% {
+                    transform: translateY(70%);
+                }
+                100% {
+                    transform: translateY(0);
+                }
+            }
+        </style>
         
         <div class = "content-bottom">
             <div class = "content-bottom-left">
@@ -31,18 +42,18 @@
             <span class = "content-bottom-right">by Kakashi</span>
         </div>
     </div>
-    <div class="card-alt">
+    <!-- <div class="card-alt">
         <div class="card-content">
             <h3>Название</h3>
             <p>145 ❤️ Collabs by Kakashi</p>
         </div>
-    </div>
+    </div> -->
 </body>
 
 
 
 
-<script>
+<!-- <script>
     // Выбираем все элементы с классом post_mini
     document.querySelectorAll('.post_mini').forEach(postMini => {
         // Добавляем обработчики событий при наведении мыши
@@ -61,4 +72,4 @@
             }
         });
     });
-  </script>
+  </script> -->
