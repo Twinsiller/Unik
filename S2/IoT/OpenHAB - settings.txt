@@ -1,0 +1,2 @@
+MQTT Broker - 5c943d1535
+Generic MQTT Thing - light_sensor_Boldinov
