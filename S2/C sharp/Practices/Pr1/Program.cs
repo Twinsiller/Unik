@@ -83,8 +83,19 @@
             path = Console.ReadLine();
             Console.WriteLine(path);
 
+            Console.WriteLine("Выберите команду для действия:" +
+                "\n1 - (1.1)Вывод текста;" +
+                "\n2 - (1.2)Поиск слова в тексте;" +
+                "\n3 - (2.1);" +
+                "\n4 - (2.2);" +
+                "\n5 - (3.1);" +
+                "\n6 - (3.2);");
+
+            int number;
+            Console.ReadLine(path);
             readText(path); // 1.1
             findWord(path); // 1.2
+
 
         }
     }
