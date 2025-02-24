@@ -76,25 +76,46 @@
             }
             Console.WriteLine("Слово НЕ найдено");
         }
+
         static void Main(string[] args)
         {
             string path;
             Console.Write("Введите путь текстового файла: ");
-            path = Console.ReadLine();
+            path = "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Check.txt";//Console.ReadLine();
+            //path = Console.ReadLine();
             Console.WriteLine(path);
 
-            Console.WriteLine("Выберите команду для действия:" +
+            
+
+            int number;
+            do
+            {
+                Console.Write("\n\nВыберите команду для действия:" +
                 "\n1 - (1.1)Вывод текста;" +
                 "\n2 - (1.2)Поиск слова в тексте;" +
                 "\n3 - (2.1);" +
                 "\n4 - (2.2);" +
                 "\n5 - (3.1);" +
-                "\n6 - (3.2);");
+                "\n6 - (3.2);" +
+                "\n\nВведите число: ");
+                number = Console.Read();
+                switch (number)
+                {
+                    case 1:
+                        readText(path); // 1.1
+                        break;
+                    case 2:
+                        findWord(path); // 1.2
+                        break;
+                    default:
+                        Console.WriteLine("Exiting program");
+                        break;
+                }
+                Console.WriteLine(number);
+                Console.ReadLine();
+                //Console.Clear();
+            } while (0 < number && number < 3);
 
-            int number;
-            Console.ReadLine(path);
-            readText(path); // 1.1
-            findWord(path); // 1.2
 
 
         }
