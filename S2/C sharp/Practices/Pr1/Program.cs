@@ -98,7 +98,7 @@
                 "\n5 - (3.1);" +
                 "\n6 - (3.2);" +
                 "\n\nВведите число: ");
-                number = Console.Read();
+                number = Console.();
                 switch (number)
                 {
                     case 1:
