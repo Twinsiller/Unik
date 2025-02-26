@@ -1,123 +1,77 @@
 ﻿namespace Pr1
 {
+    using Pr1.Classes;
     using System.IO;
+    using static System.Runtime.InteropServices.JavaScript.JSType;
+
     internal class Program
     {
-        static void readText(string path)
-        {
-            string line;
-            try
-            {
-                //Pass the file path and file name to the StreamReader constructor
-                StreamReader sr = new StreamReader(path);
-                //Read the first line of text
-                line = sr.ReadLine();
-                //Continue to read until you reach end of file
-                while (line != null)
-                {
-                    //write the line to console window
-                    Console.WriteLine(line);
-                    //Read the next line
-                    line = sr.ReadLine();
-                }
-                //close the file
-                sr.Close();
-                Console.ReadLine(); //Ожидание
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Ошибка чтения файла: " + e.Message);
-            }
-            finally
-            {
-                Console.WriteLine("Файл прочитан!!!");
-            }
-        }
-
-        static void findWord(string path)
-        {
-            string word, line;
-            string[] words;
-            Console.Write("Введите слово, которое нужно найти в файле: ");
-            word = Console.ReadLine();
-
-            try
-            {
-                //Pass the file path and file name to the StreamReader constructor
-                StreamReader sr = new StreamReader(path);
-                //Read the first line of text
-                line = sr.ReadLine();
-                //Continue to read until you reach end of file
-                while (line != null)
-                {
-                    //write the line to console window
-                    words = line.Split([' ', '.', ',', ';', '!', '?', ':', '-', '(', ')', '\'', '\"']); 
-                    foreach (string i in words)
-                    {
-                        Console.Write(i + "-");
-                        if (i.ToLower() == word.ToLower())
-                        {
-                            Console.WriteLine("\nСлово найдено");
-                            return;
-                        }
-                        
-                    }
-                    Console.WriteLine("\n-");
-                    //Read the next line
-                    line = sr.ReadLine();
-                }
-                //close the file
-                sr.Close();
-                Console.ReadLine(); //Ожидание
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Ошибка чтения файла: " + e.Message);
-            }
-            Console.WriteLine("Слово НЕ найдено");
-        }
-
         static void Main(string[] args)
         {
-            string path;
-            Console.Write("Введите путь текстового файла: ");
-            path = "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Check.txt";//Console.ReadLine();
-            //path = Console.ReadLine();
-            Console.WriteLine(path);
+            string path; // Переменная "Путь к файлу"
+            //Console.Write("Введите путь текстового файла: ");
+            path = @"C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\Practices\Pr1\Check.txt";
+            //path = "Check.txt";
+            //path = Console.ReadLine()
 
-            
+            FileText ft = new FileText(path);
 
-            int number;
+            string number;
             do
             {
-                Console.Write("\n\nВыберите команду для действия:" +
-                "\n1 - (1.1)Вывод текста;" +
-                "\n2 - (1.2)Поиск слова в тексте;" +
-                "\n3 - (2.1);" +
-                "\n4 - (2.2);" +
-                "\n5 - (3.1);" +
-                "\n6 - (3.2);" +
+                Console.WriteLine("Ваш путь: " + ft.Path + "\n");
+                Console.Write("Выберите команду для действия:" +
+                "\n1 - (1.1) Вывод текста;" +
+                "\n2 - (1.2) Поиск слова в тексте;" +
+                "\n3 - (2.1) ;" +
+                "\n4 - (2.2) ;" +
+                "\n5 - (3.1) Количество определённого слова в файле;" +
+                "\n6 - (3.2) ;" +
+                "\n7 - (4.1) Общее количество слов в файле;" +
+                "\n8 - (4.2) ;" +
+                "\nЛюбое другое число или символы это выход из программы" +
                 "\n\nВведите число: ");
-                number = Console.();
-                switch (number)
+                number = Console.ReadLine();
+                if (int.TryParse(number, out var x)) // Проверка вводимого значения
+                    switch (x)
+                    {
+                        case 1:
+                            ft.readText(); // 1.1
+                            break;
+                        case 2:
+                            ft.findWord(); // 1.2
+                            break;
+                        case 3:
+                            
+                            break;
+                        case 4:
+
+                            break;
+                        case 5:
+                            Console.WriteLine("Количество таких слов: " + ft.countWord());
+                            break;
+                        case 6:
+
+                            break;
+                        case 7:
+                            Console.WriteLine("Количество слов в файле: " + ft.countAllWords());
+                            break;
+                        case 8:
+
+                            break;
+                        default:
+                            Console.WriteLine("Exiting program"); // Завершение программы
+                            break;
+                    }
+                else
                 {
-                    case 1:
-                        readText(path); // 1.1
-                        break;
-                    case 2:
-                        findWord(path); // 1.2
-                        break;
-                    default:
-                        Console.WriteLine("Exiting program");
-                        break;
+                    Console.WriteLine("Exiting program"); // Завершение программы
+                    break;
                 }
-                Console.WriteLine(number);
-                Console.ReadLine();
-                //Console.Clear();
-            } while (0 < number && number < 3);
-
-
-
+                Console.WriteLine("Выполнена команда под номером " + number); // Что выполнили
+                Console.ReadKey(); // Ожидание
+                Console.Clear(); // Очистка консоли
+            } while (true);
         }
     }
 }
