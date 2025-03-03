@@ -30,28 +30,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileText.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Classes\\FileText.cs",
-              "RelativeDocumentMoniker": "Pr1\\Classes\\FileText.cs",
-              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Classes\\FileText.cs",
-              "RelativeToolTip": "Pr1\\Classes\\FileText.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T13:11:44.097Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Program.cs",
               "RelativeDocumentMoniker": "Pr1\\Program.cs",
               "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Program.cs",
               "RelativeToolTip": "Pr1\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwDwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T12:53:09.132Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileText.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Classes\\FileText.cs",
+              "RelativeDocumentMoniker": "Pr1\\Classes\\FileText.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Classes\\FileText.cs",
+              "RelativeToolTip": "Pr1\\Classes\\FileText.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T13:11:44.097Z",
               "EditorCaption": ""
             }
           ]
