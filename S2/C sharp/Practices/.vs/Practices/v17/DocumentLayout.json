@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
+  "WorkspaceRootPath": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\startclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\startclients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|solutionrelative:server\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|solutionrelative:server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +30,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileReceiverServer.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
-              "RelativeDocumentMoniker": "Server\\Classes\\FileReceiverServer.cs",
-              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
-              "RelativeToolTip": "Server\\Classes\\FileReceiverServer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StartClients.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\StartClients.cs",
+              "RelativeDocumentMoniker": "Client1\\StartClients.cs",
+              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\StartClients.cs",
+              "RelativeToolTip": "Client1\\StartClients.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:04:04.036Z",
+              "WhenOpened": "2025-03-10T21:37:24.257Z",
               "EditorCaption": ""
             },
             {
@@ -36,6 +48,51 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Server.cs",
+              "RelativeDocumentMoniker": "Server\\Server.cs",
+              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Server.cs",
+              "RelativeToolTip": "Server\\Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T14:07:47.351Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "Client1\\Classes\\Client.cs",
+              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeToolTip": "Client1\\Classes\\Client.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowD8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T21:40:38.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileReceiverServer.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
+              "RelativeDocumentMoniker": "Server\\Classes\\FileReceiverServer.cs",
+              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
+              "RelativeToolTip": "Server\\Classes\\FileReceiverServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T14:04:04.036Z",
+              "EditorCaption": ""
             }
           ]
         }

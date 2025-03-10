@@ -8,7 +8,7 @@ namespace Server.Classes
 {
     internal class FilePol
     {
-        
+
         public FilePol()
         {
 
