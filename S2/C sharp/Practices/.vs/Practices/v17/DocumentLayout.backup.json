@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|solutionrelative:server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Clients",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
+              "RelativeDocumentMoniker": "Client1\\Clients.csproj",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
+              "RelativeToolTip": "Client1\\Clients.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-11T13:39:50.009Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,18 +59,29 @@
               "RelativeDocumentMoniker": "Server\\Classes\\FileReceiverServer.cs",
               "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
               "RelativeToolTip": "Server\\Classes\\FileReceiverServer.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T14:04:04.036Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "Client1\\Classes\\Client.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeToolTip": "Client1\\Classes\\Client.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T13:47:13.891Z",
+              "EditorCaption": ""
             }
           ]
         }
