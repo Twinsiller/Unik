@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a0e274c6c69543e0a99d62fcfdc1374b" Name="Diagram1">
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Discipline" Width="1.5" PointX="0.75" PointY="9" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.FormTime" Width="1.5" PointX="3.75" PointY="7.125" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.History" Width="1.5" PointX="8.25" PointY="3.625" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Journal" Width="1.5" PointX="3" PointY="3.625" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.NameGroup" Width="1.5" PointX="0.75" PointY="4" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Role" Width="1.5" PointX="3.75" PointY="12.875" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Special" Width="1.5" PointX="3.75" PointY="9.5" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Status" Width="1.5" PointX="6" PointY="7.625" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Student" Width="1.5" PointX="6" PointY="3.25" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.sysdiagrams" Width="1.5" PointX="8.75" PointY="7.125" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.Teacher" Width="1.5" PointX="3" PointY="16" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.User" Width="1.5" PointX="6" PointY="12.5" />
+        <EntityTypeShape EntityType="AppAcademyWSRModel.YearAdd" Width="1.5" PointX="3.75" PointY="0.75" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Journal_Discipline" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Teacher_Discipline" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Student_FormTime" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_History_Status" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_History_Student" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_History_User" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Journal_NameGroup" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Journal_Student" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Student_NameGroup" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_User_Role" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Student_Special" />
+        <AssociationConnector Association="AppAcademyWSRModel.FK_Student_YearAdd" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AppAcademyWSRModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AppAcademyWSREntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Discipline" EntityType="AppAcademyWSRModel.Discipline" />
+    <EntitySet Name="FormTime" EntityType="AppAcademyWSRModel.FormTime" />
+    <EntitySet Name="History" EntityType="AppAcademyWSRModel.History" />
+    <EntitySet Name="Journal" EntityType="AppAcademyWSRModel.Journal" />
+    <EntitySet Name="NameGroup" EntityType="AppAcademyWSRModel.NameGroup" />
+    <EntitySet Name="Role" EntityType="AppAcademyWSRModel.Role" />
+    <EntitySet Name="Special" EntityType="AppAcademyWSRModel.Special" />
+    <EntitySet Name="Status" EntityType="AppAcademyWSRModel.Status" />
+    <EntitySet Name="Student" EntityType="AppAcademyWSRModel.Student" />
+    <EntitySet Name="sysdiagrams" EntityType="AppAcademyWSRModel.sysdiagrams" />
+    <EntitySet Name="Teacher" EntityType="AppAcademyWSRModel.Teacher" />
+    <EntitySet Name="User" EntityType="AppAcademyWSRModel.User" />
+    <EntitySet Name="YearAdd" EntityType="AppAcademyWSRModel.YearAdd" />
+    <AssociationSet Name="FK_Journal_Discipline" Association="AppAcademyWSRModel.FK_Journal_Discipline">
+      <End Role="Discipline" EntitySet="Discipline" />
+      <End Role="Journal" EntitySet="Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Teacher_Discipline" Association="AppAcademyWSRModel.FK_Teacher_Discipline">
+      <End Role="Discipline" EntitySet="Discipline" />
+      <End Role="Teacher" EntitySet="Teacher" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_FormTime" Association="AppAcademyWSRModel.FK_Student_FormTime">
+      <End Role="FormTime" EntitySet="FormTime" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Status" Association="AppAcademyWSRModel.FK_History_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_Student" Association="AppAcademyWSRModel.FK_History_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_History_User" Association="AppAcademyWSRModel.FK_History_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="History" EntitySet="History" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Journal_NameGroup" Association="AppAcademyWSRModel.FK_Journal_NameGroup">
+      <End Role="NameGroup" EntitySet="NameGroup" />
+      <End Role="Journal" EntitySet="Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Journal_Student" Association="AppAcademyWSRModel.FK_Journal_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Journal" EntitySet="Journal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_NameGroup" Association="AppAcademyWSRModel.FK_Student_NameGroup">
+      <End Role="NameGroup" EntitySet="NameGroup" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="AppAcademyWSRModel.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_Special" Association="AppAcademyWSRModel.FK_Student_Special">
+      <End Role="Special" EntitySet="Special" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Student_YearAdd" Association="AppAcademyWSRModel.FK_Student_YearAdd">
+      <End Role="YearAdd" EntitySet="YearAdd" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Discipline">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Journal" Relationship="AppAcademyWSRModel.FK_Journal_Discipline" FromRole="Discipline" ToRole="Journal" />
+    <NavigationProperty Name="Teacher" Relationship="AppAcademyWSRModel.FK_Teacher_Discipline" FromRole="Discipline" ToRole="Teacher" />
+  </EntityType>
+  <EntityType Name="FormTime">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_Student_FormTime" FromRole="FormTime" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="History">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdTeacher" Type="Int32" Nullable="false" />
+    <Property Name="IdStudent" Type="Int32" Nullable="false" />
+    <Property Name="IdStatus" Type="Int32" Nullable="false" />
+    <Property Name="DateEvent" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Status" Relationship="AppAcademyWSRModel.FK_History_Status" FromRole="History" ToRole="Status" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_History_Student" FromRole="History" ToRole="Student" />
+    <NavigationProperty Name="User" Relationship="AppAcademyWSRModel.FK_History_User" FromRole="History" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Journal">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdStudent" Type="Int32" Nullable="false" />
+    <Property Name="IdDiscipline" Type="Int32" Nullable="false" />
+    <Property Name="Evaluation" Type="Int32" Nullable="false" />
+    <Property Name="IdNameGroup" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Discipline" Relationship="AppAcademyWSRModel.FK_Journal_Discipline" FromRole="Journal" ToRole="Discipline" />
+    <NavigationProperty Name="NameGroup" Relationship="AppAcademyWSRModel.FK_Journal_NameGroup" FromRole="Journal" ToRole="NameGroup" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_Journal_Student" FromRole="Journal" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="NameGroup">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Journal" Relationship="AppAcademyWSRModel.FK_Journal_NameGroup" FromRole="NameGroup" ToRole="Journal" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_Student_NameGroup" FromRole="NameGroup" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="AppAcademyWSRModel.FK_User_Role" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Special">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_Student_Special" FromRole="Special" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="History" Relationship="AppAcademyWSRModel.FK_History_Status" FromRole="Status" ToRole="History" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdSpecial" Type="Int32" Nullable="false" />
+    <Property Name="IdYearAdd" Type="Int32" Nullable="false" />
+    <Property Name="IdFormTime" Type="Int32" Nullable="false" />
+    <Property Name="IdNameGroup" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="FormTime" Relationship="AppAcademyWSRModel.FK_Student_FormTime" FromRole="Student" ToRole="FormTime" />
+    <NavigationProperty Name="History" Relationship="AppAcademyWSRModel.FK_History_Student" FromRole="Student" ToRole="History" />
+    <NavigationProperty Name="Journal" Relationship="AppAcademyWSRModel.FK_Journal_Student" FromRole="Student" ToRole="Journal" />
+    <NavigationProperty Name="NameGroup" Relationship="AppAcademyWSRModel.FK_Student_NameGroup" FromRole="Student" ToRole="NameGroup" />
+    <NavigationProperty Name="Special" Relationship="AppAcademyWSRModel.FK_Student_Special" FromRole="Student" ToRole="Special" />
+    <NavigationProperty Name="YearAdd" Relationship="AppAcademyWSRModel.FK_Student_YearAdd" FromRole="Student" ToRole="YearAdd" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdDiscipline" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Discipline" Relationship="AppAcademyWSRModel.FK_Teacher_Discipline" FromRole="Teacher" ToRole="Discipline" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdRole" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="History" Relationship="AppAcademyWSRModel.FK_History_User" FromRole="User" ToRole="History" />
+    <NavigationProperty Name="Role" Relationship="AppAcademyWSRModel.FK_User_Role" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="YearAdd">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Year" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Student" Relationship="AppAcademyWSRModel.FK_Student_YearAdd" FromRole="YearAdd" ToRole="Student" />
+  </EntityType>
+  <Association Name="FK_Journal_Discipline">
+    <End Type="AppAcademyWSRModel.Discipline" Role="Discipline" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Journal" Role="Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discipline">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Journal">
+        <PropertyRef Name="IdDiscipline" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Teacher_Discipline">
+    <End Type="AppAcademyWSRModel.Discipline" Role="Discipline" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Teacher" Role="Teacher" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Discipline">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Teacher">
+        <PropertyRef Name="IdDiscipline" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_FormTime">
+    <End Type="AppAcademyWSRModel.FormTime" Role="FormTime" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FormTime">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="IdFormTime" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Status">
+    <End Type="AppAcademyWSRModel.Status" Role="Status" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.History" Role="History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="IdStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_Student">
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.History" Role="History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="IdStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_History_User">
+    <End Type="AppAcademyWSRModel.User" Role="User" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.History" Role="History" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="History">
+        <PropertyRef Name="IdTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Journal_NameGroup">
+    <End Type="AppAcademyWSRModel.NameGroup" Role="NameGroup" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Journal" Role="Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NameGroup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Journal">
+        <PropertyRef Name="IdNameGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Journal_Student">
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="AppAcademyWSRModel.Journal" Role="Journal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Journal">
+        <PropertyRef Name="IdStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_NameGroup">
+    <End Type="AppAcademyWSRModel.NameGroup" Role="NameGroup" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NameGroup">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="IdNameGroup" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Type="AppAcademyWSRModel.Role" Role="Role" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.User" Role="User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_Special">
+    <End Type="AppAcademyWSRModel.Special" Role="Special" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Special">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="IdSpecial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Student_YearAdd">
+    <End Type="AppAcademyWSRModel.YearAdd" Role="YearAdd" Multiplicity="1" />
+    <End Type="AppAcademyWSRModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="YearAdd">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="IdYearAdd" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
