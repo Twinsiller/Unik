@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
+  "WorkspaceRootPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}|Server\\Server.csproj|solutionrelative:server\\classes\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\serverwpf(pr2)\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|solutionrelative:serverwpf(pr2)\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\serverwpf(pr2)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|solutionrelative:serverwpf(pr2)\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\clients.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\serverwpf(pr2)\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|solutionrelative:serverwpf(pr2)\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\serverwpf(pr2)\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|solutionrelative:serverwpf(pr2)\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\serverwpf(pr2)\\pages\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EC90759-5F78-45C2-B9A6-9806935D8BE8}|ServerWPF(Pr2)\\ServerWPF(Pr2).csproj|solutionrelative:serverwpf(pr2)\\pages\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,51 +43,69 @@
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 198,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Clients.csproj",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
-              "RelativeDocumentMoniker": "Client1\\Clients.csproj",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
-              "RelativeToolTip": "Client1\\Clients.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T13:39:50.009Z"
+              "Title": "FrameNav.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\ClassOpt\\FrameNav.cs",
+              "RelativeDocumentMoniker": "ServerWPF(Pr2)\\ClassOpt\\FrameNav.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\ClassOpt\\FrameNav.cs",
+              "RelativeToolTip": "ServerWPF(Pr2)\\ClassOpt\\FrameNav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:49:29.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ServerWPF(Pr2)\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\MainWindow.xaml",
+              "RelativeToolTip": "ServerWPF(Pr2)\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T14:29:10.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileReceiverServer.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
-              "RelativeDocumentMoniker": "Server\\Classes\\FileReceiverServer.cs",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Server\\Classes\\FileReceiverServer.cs",
-              "RelativeToolTip": "Server\\Classes\\FileReceiverServer.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T14:04:04.036Z",
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\App.xaml",
+              "RelativeDocumentMoniker": "ServerWPF(Pr2)\\App.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\App.xaml",
+              "RelativeToolTip": "ServerWPF(Pr2)\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T15:35:25.402Z",
               "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
-              "RelativeDocumentMoniker": "Client1\\Classes\\Client.cs",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
-              "RelativeToolTip": "Client1\\Classes\\Client.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ServerWPF(Pr2)\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ServerWPF(Pr2)\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T13:47:13.891Z",
+              "WhenOpened": "2025-03-18T14:29:10.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Subject.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\Pages\\Subject.xaml",
+              "RelativeDocumentMoniker": "ServerWPF(Pr2)\\Pages\\Subject.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\ServerWPF(Pr2)\\Pages\\Subject.xaml",
+              "RelativeToolTip": "ServerWPF(Pr2)\\Pages\\Subject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-18T14:41:47.637Z",
               "EditorCaption": ""
             }
           ]

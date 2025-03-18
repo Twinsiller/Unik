@@ -14,9 +14,12 @@ namespace Clients
             string filePath;
             while (true)
             {
-                Console.Write("Введите путь к файлу для отправки: ");
-                filePath = Console.ReadLine();
-                if (filePath == "") break;
+                //Console.Write("Введите путь к файлу для отправки: ");
+                //filePath = Console.ReadLine();
+                Console.Write("Quit? (y/n): ");
+                string ch = Console.ReadLine();
+                filePath = "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\file.txt";
+                if (filePath == "" || ch == "y") break;
                 client1.giveFile(filePath);
             }
 

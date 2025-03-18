@@ -1,0 +1,42 @@
+﻿<Window x:Class="AppWsrAcademy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppWsrAcademy"
+        mc:Ignorable="d"
+        Title="Академия Мастеров WorldSkills Russia" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="105*"/>
+            <RowDefinition Height="314*"/>
+        </Grid.RowDefinitions>
+
+        <!--Начало разметки Шапки проекта-->
+        <StackPanel
+            Orientation="Horizontal"
+            HorizontalAlignment="Center">
+            <Image 
+                Source="./Resources/wsr-300.png"/>
+            <TextBlock 
+                FontSize="18pt"
+                FontWeight="Bold"
+                Margin="10"
+                VerticalAlignment="Center"
+                Text="{Binding ElementName=FrmMain,
+                        Path=Content.Title}"/>
+        </StackPanel>
+        <!--Конец разметки Шапки проекта-->
+        
+        <!--Начало тела проекта-->
+        <Frame
+            NavigationUIVisibility="Hidden"
+            Name="FrmMain"
+            Grid.Row="1"
+            Grid.Column="0"/>
+        <!--Конец тела проекта-->
+
+    </Grid>
+</Window>
+    
+ 

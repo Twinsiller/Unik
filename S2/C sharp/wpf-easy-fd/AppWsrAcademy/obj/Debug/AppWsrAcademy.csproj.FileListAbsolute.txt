@@ -1,0 +1,85 @@
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\AppWsrAcademy.exe.config
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\AppWsrAcademy.exe
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\AppWsrAcademy.pdb
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\MainWindow.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageLogin.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\App.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy_MarkupCompile.cache
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy_MarkupCompile.lref
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\App.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\MainWindow.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageLogin.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.g.resources
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.Properties.Resources.resources
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.csproj.GenerateResource.cache
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.csproj.CoreCompileInputs.cache
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.exe
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.pdb
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\EntityFramework.dll
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\EntityFramework.xml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy_Content.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.csproj.CopyComplete
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageRegistration.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageRegistration.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageStudent.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageTeacher.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageStudent.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\PageMain\PageTeacher.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageAddStudent.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageAddStudent.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageAddEvaluation.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageAddEvaluation.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageStudentList.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageStudentList.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageJournalStudent.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageJournalStudent.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageEditGrade.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageEditGrade.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageEditGradeStudent.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageEditGradeStudent.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Director\WindowDirector.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Director\WindowDirector.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageDeleteStudent.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\Teacher\PageDeleteStudent.baml
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\AppWsrAcademy.csprojAssemblyReference.cache
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\MVC\PageMvc.g.cs
+C:\Users\burnf\source\repos\AppWsrAcademy\AppWsrAcademy\obj\Debug\MVC\PageMvc.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy.csproj.AssemblyReference.cache
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Director\WindowDirector.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\MainWindow.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\MVC\PageMvc.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageLogin.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageRegistration.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageStudent.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageTeacher.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageAddEvaluation.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageAddStudent.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageDeleteStudent.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageEditGrade.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageEditGradeStudent.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageJournalStudent.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageStudentList.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\App.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy_Content.g.cs
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy_MarkupCompile.cache
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy_MarkupCompile.lref
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\App.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Director\WindowDirector.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\MainWindow.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\MVC\PageMvc.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageLogin.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageRegistration.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageStudent.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\PageMain\PageTeacher.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageAddEvaluation.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageAddStudent.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageDeleteStudent.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageEditGrade.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageEditGradeStudent.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageJournalStudent.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\Teacher\PageStudentList.baml
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy.g.resources
+C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\wpf-easy-fd\AppWsrAcademy\obj\Debug\AppWsrAcademy.pdb

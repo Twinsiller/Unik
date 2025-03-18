@@ -98,7 +98,5 @@ namespace Server.Classes
                 Task.Run(() => HandleReadFileFromPol(client)); // Запускаем обработку в отдельной задаче
             }
         }
-
-        
     }
 }
