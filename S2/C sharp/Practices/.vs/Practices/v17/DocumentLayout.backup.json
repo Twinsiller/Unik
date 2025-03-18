@@ -41,15 +41,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Clients",
+              "Title": "Clients.csproj",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
               "RelativeDocumentMoniker": "Client1\\Clients.csproj",
               "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Clients.csproj",
               "RelativeToolTip": "Client1\\Clients.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-11T13:39:50.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T13:39:50.009Z"
             },
             {
               "$type": "Document",
