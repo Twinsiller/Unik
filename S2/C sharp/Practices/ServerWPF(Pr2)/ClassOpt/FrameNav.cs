@@ -9,6 +9,7 @@ namespace ServerWPF_Pr2_.ClassOpt
 {
     class FrameNav
     {
+        public static Frame frmHead { get; set; }
         public static Frame frmHeaderSubject { get; set; }
         public static Frame frmHeaderPracticeNumber { get; set; }
     }

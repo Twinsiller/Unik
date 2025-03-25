@@ -1,5 +1,5 @@
 ﻿using ServerWPF_Pr2_.ClassOpt;
-using ServerWPF_Pr2_.Pages;
+using ServerWPF_Pr2_.MainPages.Header;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,11 +26,8 @@ namespace ServerWPF_Pr2_
         {
             InitializeComponent();
 
-            FrameNav.frmHeaderSubject = ViewFrmHeadSubject;
-            ViewFrmHeadSubject.Navigate(new Subject());
-            
-            FrameNav.frmHeaderPracticeNumber = ViewFrmHeadPracticeNumber;
-            ViewFrmHeadPracticeNumber.Navigate(new PracticeNumber());
+            FrameNav.frmHead = ViewFrmHead;
+            ViewFrmHead.Navigate(new Head());
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

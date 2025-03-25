@@ -6,35 +6,19 @@
         xmlns:local="clr-namespace:ServerWPF_Pr2_"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Height="434" VerticalAlignment="Bottom">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
-        <StackPanel 
-                    Grid.Row="0"
-                    Grid.Column="0"
-            x:Name="Subject"/>
-        <StackPanel 
-                    Grid.Row="0"
-                    Grid.Column="1">
+        
 
-        </StackPanel>
-        <StackPanel HorizontalAlignment="Center" Orientation="Vertical" Grid.Row="1" VerticalAlignment="Center">
-            <Button Content="Включить сервер" Style="{StaticResource MainButton}"/>
-            <Button Content="Удаление папки с файлами" Style="{StaticResource MainButton}"/>
-            <Button Content="Завершение программы" Style="{StaticResource MainButton}"/>
+        <Frame Name="ViewFrmHead" Grid.Row="0" Height="60" VerticalAlignment="Bottom"/>
 
-
-        </StackPanel>
-
-        <Frame Name="ViewFrmHeadSubject" Grid.Row="0" Grid.Column="0"/>
-        <Frame Name="ViewFrmHeadPracticeNumber" Grid.Row="0" Grid.Column="1"/>
 
     </Grid>
 </Window>

@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="MainPages\Footer\Foot.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPages\Header\Head.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -64,24 +72,30 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ClassOpt\FrameNav.cs" />
+    <Compile Include="MainPages\Footer\Foot.xaml.cs">
+      <DependentUpon>Foot.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPages\Header\Head.xaml.cs">
+      <DependentUpon>Head.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Pages\PracticeNumber.xaml">
+    <Page Include="MainPages\Header\PracticeNumber.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Subject.xaml">
+    <Page Include="MainPages\Header\Subject.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pages\PracticeNumber.xaml.cs">
+    <Compile Include="MainPages\Header\PracticeNumber.xaml.cs">
       <DependentUpon>PracticeNumber.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Subject.xaml.cs">
+    <Compile Include="MainPages\Header\Subject.xaml.cs">
       <DependentUpon>Subject.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -109,8 +123,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Style\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
