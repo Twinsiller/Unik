@@ -1,0 +1,20 @@
+﻿<Window x:Class="Pr2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pr2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <Frame Name="SubjectPlace" Grid.Row="0"/>
+        <Frame Name="MainBodyPlace" Grid.Row="1"/>
+        <Frame Name="NamePlace" Grid.Row="2"/>
+    </Grid>
+</Window>
