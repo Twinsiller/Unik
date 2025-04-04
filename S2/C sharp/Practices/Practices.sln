@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pr1", "Pr1\Pr1.csproj", "{6C8349E2-375F-448F-A254-A0831CB0AB63}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pr2", "Pr2", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pr3", "Pr3", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{C1BA3394-0E12-49A7-BB91-62A7094D4DAE}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWPF(Pr3)", "ServerWPF(Pr2)\ServerWPF(Pr3).csproj", "{3EC90759-5F78-45C2-B9A6-9806935D8BE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Terminal", "Terminal", "{9D8C201E-ED1B-4DD2-AB6E-004F5F18D00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pr2", "Pr2\Pr2.csproj", "{1C21F20A-B9F4-4166-B170-983651DC217E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{3EC90759-5F78-45C2-B9A6-9806935D8BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC90759-5F78-45C2-B9A6-9806935D8BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC90759-5F78-45C2-B9A6-9806935D8BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C21F20A-B9F4-4166-B170-983651DC217E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C21F20A-B9F4-4166-B170-983651DC217E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C21F20A-B9F4-4166-B170-983651DC217E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C21F20A-B9F4-4166-B170-983651DC217E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
