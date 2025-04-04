@@ -40,3 +40,5 @@ C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr2)\obj\Debug\MainPages\Header\Subject.baml
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr2)\obj\Debug\MainPages\Header\Head.g.cs
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr2)\obj\Debug\MainPages\Header\Head.baml
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr2)\obj\Debug\MainPages\Footer\Foot.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\ServerWPF(Pr2)\obj\Debug\MainPages\Footer\Foot.baml

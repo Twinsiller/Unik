@@ -68,7 +68,7 @@ namespace ServerWPF_Pr2_.MainPages.Header {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr2);component/mainpages/header/head.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr3);component/mainpages/header/head.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\MainPages\Header\Head.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
