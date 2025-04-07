@@ -52,7 +52,7 @@ namespace ServerWPF_Pr2_.MainPages.Header {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr2);component/mainpages/header/practicenumber.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr3);component/mainpages/header/practicenumber.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\MainPages\Header\PracticeNumber.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

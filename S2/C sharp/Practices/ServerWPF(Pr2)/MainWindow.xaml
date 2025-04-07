@@ -6,18 +6,15 @@
         xmlns:local="clr-namespace:ServerWPF_Pr2_"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Height="434" VerticalAlignment="Bottom">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-        </Grid.ColumnDefinitions>
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="60"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        
 
-        <Frame Name="ViewFrmHead" Grid.Row="0" Height="60" VerticalAlignment="Bottom"/>
+
+        <Frame Name="ViewFrmHead" Height="60" VerticalAlignment="Center" HorizontalAlignment="Center"/>
 
 
     </Grid>
