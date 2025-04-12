@@ -52,7 +52,7 @@ namespace ServerWPF_Pr2_.MainPages.Footer {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr2);component/mainpages/footer/foot.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ServerWPF(Pr3);component/mainpages/footer/foot.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\MainPages\Footer\Foot.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

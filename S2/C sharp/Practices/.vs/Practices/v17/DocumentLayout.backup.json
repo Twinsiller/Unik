@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\services\\filesanalisator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\services\\filesanalisator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -19,12 +19,16 @@
       "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\services\\fileanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\services\\fileanalysis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -59,6 +63,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-01T14:10:31.464Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilesAnalisator.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Services\\FilesAnalisator.cs",
+              "RelativeDocumentMoniker": "Pr2\\Services\\FilesAnalisator.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Services\\FilesAnalisator.cs",
+              "RelativeToolTip": "Pr2\\Services\\FilesAnalisator.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:38:17.369Z",
               "EditorCaption": ""
             },
             {
@@ -83,20 +100,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainBody.xaml.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml.cs",
               "RelativeDocumentMoniker": "Pr2\\Frames\\2Body\\MainBody.xaml.cs",
               "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml.cs",
               "RelativeToolTip": "Pr2\\Frames\\2Body\\MainBody.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACIAAABMAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T14:41:59.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Pr2\\MainWindow.xaml.cs",
@@ -109,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
               "RelativeDocumentMoniker": "Client1\\Classes\\Client.cs",
@@ -122,20 +139,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "FileAnalysis.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Services\\FileAnalysis.cs",
               "RelativeDocumentMoniker": "Pr2\\Services\\FileAnalysis.cs",
               "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Services\\FileAnalysis.cs",
               "RelativeToolTip": "Pr2\\Services\\FileAnalysis.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADgvxgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAADgvxUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T14:48:14.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FrameNav.cs",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\ClassOpt\\FrameNav.cs",
               "RelativeDocumentMoniker": "Pr2\\ClassOpt\\FrameNav.cs",
@@ -148,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Subject.xaml",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\1Header\\Subject.xaml",
               "RelativeDocumentMoniker": "Pr2\\Frames\\1Header\\Subject.xaml",
@@ -160,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MyName.xaml",
               "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\3Footer\\MyName.xaml",
               "RelativeDocumentMoniker": "Pr2\\Frames\\3Footer\\MyName.xaml",
