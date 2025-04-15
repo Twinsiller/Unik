@@ -21,6 +21,7 @@ namespace Pr2.Services
             _results.Clear();
             var tasks = filePaths.Select(ProcessFileAsync).ToArray();
             await Task.WhenAll(tasks);
+            GC.Collect();
             return _results;
         }
 

@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-//using System.IO;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -48,9 +48,8 @@ namespace Pr2.Frames._2Body
                     // Показываем имена файлов до обработки
                     foreach (var file in openFileDialog.FileNames)
                     {
-                        FileAnalysis fa = new FileAnalysis(file);
-                        FileList_Name.Items.Add($"Файл {countFile++}: {fa.GetFileName(file)}");
-                        FileList_Info.Items.Add($"Обработка: {fa.GetFileName(file)}");
+                        FileList_Name.Items.Add($"Файл {countFile++}: {System.IO.Path.GetFileName(file)}");
+                        FileList_Info.Items.Add($"Обработка: {System.IO.Path.GetFileName(file)}");
                     }
                     TextBlockFilesCount.Text = $"Количество файлов: {countFile - 1}";
                     // Асинхронный анализ
