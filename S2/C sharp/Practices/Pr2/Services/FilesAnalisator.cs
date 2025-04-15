@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace Pr2.Services
 {
-    class FilesAnalisator
+    public class FilesAnalisator
     {
         private readonly object _lock = new object();
         private readonly List<FileAnalysis> _results = new List<FileAnalysis>();
@@ -28,7 +28,11 @@ namespace Pr2.Services
         {
             try
             {
-                string content = await File.ReadAllTextAsync(filePath);
+                string content;
+                using (var reader = File.OpenText(filePath))
+                {
+                    content = await reader.ReadToEndAsync(); // Правильный асинхронный метод
+                }
                 int wordCount = content.Split(new[] { ' ', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries).Length;
                 int charCount = content.Length;
 
