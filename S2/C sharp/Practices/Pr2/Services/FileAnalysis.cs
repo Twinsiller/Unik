@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Pr2.Services
 {
-    class FileAnalysis
+    public class FileAnalysis
     {
-        string _filePath;
-        string _fileName;
-        int _countWords;
-        int _countChars;
+        public string _filePath { get;}
+        public string _fileName { get; }
+        public int _countWords { get; }
+        public int _countChars { get; }
 
         public FileAnalysis(string filePath, int countWords, int countChars)
         {
@@ -22,7 +22,7 @@ namespace Pr2.Services
             _countChars = countChars;
         }
 
-        string GetFileName(string filePath)
+        public string GetFileName(string filePath)
         {
             return Path.GetFileName(filePath);
         }

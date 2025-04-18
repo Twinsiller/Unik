@@ -1,0 +1,28 @@
+﻿<Page x:Class="Pr3_Server.Frames._2Body.MainBody"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pr3_Server.Frames._2Body"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="800"
+      Title="MainBody">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0" Style="{StaticResource GridPanelFile}" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <GroupBox Header="GroupBox">
+                <Button VerticalAlignment="Center" HorizontalAlignment="Center" Height="38" Width="142"/>
+                </GroupBox>
+</Grid>
+
+        <Grid Grid.Column="1" Style="{StaticResource GridPanelFile}">
+
+        </Grid>
+        
+    </Grid>
+</Page>

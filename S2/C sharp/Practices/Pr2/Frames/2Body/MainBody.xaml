@@ -13,16 +13,22 @@
             <ColumnDefinition Width="171*"/>
             <ColumnDefinition Width="229*"/>
         </Grid.ColumnDefinitions>
-        
+
         <Grid Style="{StaticResource GridPanelFile}">
-            <ListBox Height="270" VerticalAlignment="Top" Background="White" x:Name="FileList"/>
+            <ListBox Height="270" VerticalAlignment="Top" Background="White" x:Name="FileList_Name"/>
             <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
-                <Button Content="Выбрать файл" Click="SelectFile_Click" Style="{StaticResource ButtonChooseFiles}" VerticalAlignment="Bottom"/>
+                <Button Content="Выбрать файл" Click="SelectFiles_Click" Style="{StaticResource ButtonChooseFiles}" VerticalAlignment="Bottom"/>
                 <TextBlock 
+                    x:Name="TextBlockFilesCount"
                     Text="Количество файлов: 0" 
                     Margin="5,0,0,0"
                     VerticalAlignment="Center"/>
             </StackPanel>
         </Grid>
+        <StackPanel x:Name="StackPanelResults" Grid.Column="1" Style="{StaticResource StackPanelResults}">
+            <ListBox Background="White" x:Name="FileList_Info" Grid.Column="1"/>
+
+        </StackPanel>
+
     </Grid>
 </Page>
