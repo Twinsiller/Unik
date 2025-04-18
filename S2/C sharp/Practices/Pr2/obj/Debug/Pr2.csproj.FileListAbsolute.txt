@@ -20,3 +20,13 @@ C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\App.bam
 C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\1Header\Subject.baml
 C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\2Body\MainBody.g.cs
 C:\Users\boldi\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\2Body\MainBody.baml
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Pr2.csproj.AssemblyReference.cache
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\1Header\Subject.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\2Body\MainBody.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Frames\3Footer\MyName.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\MainWindow.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\App.g.cs
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Pr2_MarkupCompile.cache
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Pr2_MarkupCompile.lref
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Pr2.exe
+C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr2\obj\Debug\Pr2.pdb
