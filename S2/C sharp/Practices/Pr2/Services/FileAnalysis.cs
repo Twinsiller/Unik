@@ -21,13 +21,6 @@ namespace Pr2.Services
             _countWords = countWords;
             _countChars = countChars;
         }
-        public FileAnalysis(string filePath)
-        {
-            _filePath = filePath;
-            _fileName = GetFileName(filePath);
-            _countWords = -1;
-            _countChars = -1;
-        }
 
         public string GetFileName(string filePath)
         {

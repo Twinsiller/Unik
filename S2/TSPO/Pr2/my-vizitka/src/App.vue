@@ -61,35 +61,25 @@ import { ref, computed } from 'vue';
 
 // Данные профиля
 const profile = ref({
-  name: "Иван Иванов",
-  title: "Frontend разработчик",
-  image: "https://via.placeholder.com/150",
-  about: "Я frontend разработчик с 3-летним опытом работы с Vue.js, React и современными веб-технологиями. Увлекаюсь созданием интуитивно понятных и отзывчивых пользовательских интерфейсов.",
-  skills: ["Vue.js", "JavaScript", "HTML5", "CSS3", "Git", "Webpack", "API Integration"],
+  name: "Болдинов Алексей Валерьевич",
+  title: "Чел",
+  image: "https://i.pinimg.com/originals/83/1a/7c/831a7cf39e76484168b529d4486f97db.jpg",
+  about: "Вы бы не смогли смотреть на то как я плох в этом. Но разачарованы не Вы здесь, а я (от самого себя). Позор - это моё второе имя. Зато я немного умею играю в волейбол. ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ",
+  skills: ["C#", "C++", "HTML5", "CSS3", "Git", "Webpack", "API Integration"],
   experience: [
     {
-      position: "Frontend Developer",
-      company: "WebTech Solutions",
-      period: "2020 - настоящее время",
-      description: "Разработка и поддержка клиентской части веб-приложений с использованием Vue.js."
-    },
-    {
-      position: "Junior Web Developer",
-      company: "Digital Agency",
-      period: "2018 - 2020",
-      description: "Верстка макетов, создание простых веб-сайтов, участие в командных проектах."
-    }
+      position: "Учитель информатики",
+      company: "ГБОУ Школа №1400",
+      period: "2022 - 2024",
+      description: "Обучение учеников навыкам программирования."
+    }    
   ],
   contacts: {
-    email: "ivan.ivanov@example.com",
-    phone: "+7 (123) 456-78-90",
+    email: "boldinov.leha@yandex.ru",
+    phone: "+7 (919) 965-22-30",
     github: {
-      text: "github.com/ivanov",
-      link: "https://github.com/ivanov"
-    },
-    linkedin: {
-      text: "linkedin.com/in/ivanov",
-      link: "https://linkedin.com/in/ivanov"
+      text: "github.com/Twinsiller",
+      link: "https://github.com/Twinsiller"
     }
   }
 });
@@ -124,10 +114,13 @@ body {
   background-color: #f5f5f5;
   color: #333;
 }
+
 .container {
-  max-width: 800px;
+  width: 100%;
+  /*max-width: 1200px; /* Можно увеличить до 1400px если нужно */
+  display: flex;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 8px;
@@ -148,25 +141,26 @@ h1 {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #42b983;
+  border: 3px solid #653a55;
   margin-bottom: 20px;
 }
 .section {
   margin: 30px 0;
 }
 h2 {
-  color: #42b983;
-  border-bottom: 2px solid #42b983;
+  color: #6eaddc;
+  border-bottom: 2px solid #48708f;
   padding-bottom: 5px;
   display: inline-block;
 }
 .skills-list {
+  margin-top: 5px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 .skill-tag {
-  background-color: #42b983;
+  background-color: #4289b9;
   color: white;
   padding: 5px 10px;
   border-radius: 20px;
@@ -183,7 +177,7 @@ h2 {
 }
 .contact-list i {
   margin-right: 10px;
-  color: #42b983;
+  color: #6eaddc;
   width: 20px;
   text-align: center;
 }
@@ -197,7 +191,7 @@ footer {
   position: fixed;
   top: 20px;
   right: 20px;
-  background: #42b983;
+  background: #6eaddc;
   color: white;
   border: none;
   padding: 8px 15px;
@@ -215,7 +209,7 @@ footer {
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
 }
 .dark-mode h1, .dark-mode h2 {
-  color: #42b983;
+  color: #5a739b;
 }
 .dark-mode header, .dark-mode footer {
   border-color: #444;
