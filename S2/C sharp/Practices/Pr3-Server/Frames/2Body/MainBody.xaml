@@ -15,14 +15,30 @@
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0" Style="{StaticResource GridPanelFile}" HorizontalAlignment="Center" VerticalAlignment="Center">
-            <GroupBox Header="GroupBox">
-                <Button VerticalAlignment="Center" HorizontalAlignment="Center" Height="38" Width="142"/>
-                </GroupBox>
-</Grid>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBox Style="{StaticResource TextBoxAtMenu}" />
+                <Button Click="StartAwaitingFiles" Style="{StaticResource ButtonAtMenu}" Grid.Row="1"/>
+                <Button Style="{StaticResource ButtonAtMenu}" Grid.Row="2"/>
+                <Button Style="{StaticResource ButtonAtMenu}" Grid.Row="3"/>
+
+            </Grid>
+        </Grid>
 
         <Grid Grid.Column="1" Style="{StaticResource GridPanelFile}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Переданные файлы" VerticalAlignment="Center" />
+            <TextBlock TextWrapping="Wrap" Grid.Row="1"/>
 
         </Grid>
-        
+
     </Grid>
 </Page>

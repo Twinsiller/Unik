@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Pr3_Server.ClassOpt;
+using Server.Classes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,17 @@ namespace Pr3_Server.Frames._2Body
     /// </summary>
     public partial class MainBody : Page
     {
+        GodServer gs = new GodServer();
         public MainBody()
         {
             InitializeComponent();
         }
+
+        private async void StartAwaitingFiles(object sender, RoutedEventArgs e)
+        {
+
+            gs.AddServer();
+        }
+
     }
 }
