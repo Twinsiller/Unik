@@ -1,6 +1,6 @@
-﻿using Server.Classes;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,7 +23,7 @@ namespace Pr3_Server.ClassOpt
                     return;
                 }
             }
-            frss.Add(new FileReceiverServer(port));
+            frss.Add(new FileReceiverServer(port/*, &Files*/));
             Console.WriteLine($"Port was added: {port}");
         }
 

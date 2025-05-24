@@ -1,26 +1,114 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
+  "WorkspaceRootPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\classopt\\filereceiverserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\godserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\classopt\\godserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42F2F844-6962-4BF1-8215-82CB79A7DBEA}|Client1\\Clients.csproj|solutionrelative:client1\\classes\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\pr3-client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\pr3-client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\classopt\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\classopt\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\pr2\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\frames\\2body\\mainbody.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\onedrive\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\godserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\classopt\\godserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\frames\\2body\\mainbody.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-client\\frames\\3footer\\myname.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FC08025-E385-4670-BA5E-51276BEE2CAC}|Pr3-Client\\Pr3-Client.csproj|solutionrelative:pr3-client\\frames\\3footer\\myname.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\3footer\\myname.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\frames\\3footer\\myname.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\classopt\\framenav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\pr2\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1C21F20A-B9F4-4166-B170-983651DC217E}|Pr2\\Pr2.csproj|solutionrelative:pr2\\frames\\1header\\subject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|c:\\users\\boldi\\desktop\\something\\unik\\s2\\c sharp\\practices\\pr3-server\\classopt\\fileinfoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1CD8136-84E2-44F0-BF29-D331B0D9359B}|Pr3-Server\\Pr3-Server.csproj|solutionrelative:pr3-server\\classopt\\fileinfoview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,8 +117,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 197,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 308,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,78 +130,344 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainBody.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
-              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
-              "RelativeToolTip": "Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeDocumentMoniker": "Client1\\Classes\\Client.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Client1\\Classes\\Client.cs",
+              "RelativeToolTip": "Client1\\Classes\\Client.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:11:22.833Z"
+              "WhenOpened": "2025-05-13T15:57:45.893Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FileReceiverServer.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
-              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
-              "RelativeToolTip": "Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAADwvxoAAAAJAAAAAAAAAA==",
+              "Title": "MainBody.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\2Body\\MainBody.xaml",
+              "RelativeDocumentMoniker": "Pr3-Client\\Frames\\2Body\\MainBody.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\2Body\\MainBody.xaml",
+              "RelativeToolTip": "Pr3-Client\\Frames\\2Body\\MainBody.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:38:26.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainBody.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3-Client\\Frames\\2Body\\MainBody.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeToolTip": "Pr3-Client\\Frames\\2Body\\MainBody.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAcwEAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:03:00.75Z"
+              "WhenOpened": "2025-05-13T15:43:12.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Pr3-Client\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\MainWindow.xaml",
+              "RelativeToolTip": "Pr3-Client\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:36:44.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3-Client\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Pr3-Client\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA4wC4AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:36:44.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pr3-Client",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Pr3-Client.csproj",
+              "RelativeDocumentMoniker": "Pr3-Client\\Pr3-Client.csproj",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Pr3-Client.csproj",
+              "RelativeToolTip": "Pr3-Client\\Pr3-Client.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-13T15:39:16.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\App.xaml",
+              "RelativeDocumentMoniker": "Pr3-Client\\App.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\App.xaml",
+              "RelativeToolTip": "Pr3-Client\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:42:16.537Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainBody.xaml",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml",
-              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\2Body\\MainBody.xaml",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml",
-              "RelativeToolTip": "Pr3-Server\\Frames\\2Body\\MainBody.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T14:19:08.722Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 290,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GodServer.cs",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\GodServer.cs",
-              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\GodServer.cs",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\GodServer.cs",
-              "RelativeToolTip": "Pr3-Server\\ClassOpt\\GodServer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "Title": "FileReceiverServer.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
+              "RelativeToolTip": "Pr3-Server\\ClassOpt\\FileReceiverServer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:36:15.117Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-04-29T15:03:00.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GodServer.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\GodServer.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\GodServer.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\GodServer.cs",
+              "RelativeToolTip": "Pr3-Server\\ClassOpt\\GodServer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:36:15.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Pr3-Server\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wC0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T14:31:09.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\ClassOpt\\Client.cs",
+              "RelativeDocumentMoniker": "Pr3-Client\\ClassOpt\\Client.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\ClassOpt\\Client.cs",
+              "RelativeToolTip": "Pr3-Client\\ClassOpt\\Client.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:58:55.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainBody.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeDocumentMoniker": "Pr2\\Frames\\2Body\\MainBody.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeToolTip": "Pr2\\Frames\\2Body\\MainBody.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T16:02:44.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainBody.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml",
+              "RelativeDocumentMoniker": "Pr2\\Frames\\2Body\\MainBody.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\2Body\\MainBody.xaml",
+              "RelativeToolTip": "Pr2\\Frames\\2Body\\MainBody.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:06:25.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FrameNav.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\ClassOpt\\FrameNav.cs",
+              "RelativeDocumentMoniker": "Pr3-Client\\ClassOpt\\FrameNav.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\ClassOpt\\FrameNav.cs",
+              "RelativeToolTip": "Pr3-Client\\ClassOpt\\FrameNav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:39:42.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainBody.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
+              "RelativeToolTip": "Pr3-Server\\Frames\\2Body\\MainBody.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:11:22.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainBody.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml",
+              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\2Body\\MainBody.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\2Body\\MainBody.xaml",
+              "RelativeToolTip": "Pr3-Server\\Frames\\2Body\\MainBody.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-29T14:19:08.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Subject.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\1Header\\Subject.xaml",
+              "RelativeDocumentMoniker": "Pr3-Client\\Frames\\1Header\\Subject.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\1Header\\Subject.xaml",
+              "RelativeToolTip": "Pr3-Client\\Frames\\1Header\\Subject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:38:03.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Pr3-Server\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\MainWindow.xaml",
+              "RelativeToolTip": "Pr3-Server\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:22:07.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml",
               "RelativeDocumentMoniker": "Pr3-Server\\App.xaml",
-              "ToolTip": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml",
               "RelativeToolTip": "Pr3-Server\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-29T16:25:11.781Z",
+              "WhenOpened": "2025-05-13T15:05:05.986Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MyName.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\3Footer\\MyName.xaml",
+              "RelativeDocumentMoniker": "Pr3-Client\\Frames\\3Footer\\MyName.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\Frames\\3Footer\\MyName.xaml",
+              "RelativeToolTip": "Pr3-Client\\Frames\\3Footer\\MyName.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:38:43.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyName.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\3Footer\\MyName.xaml",
+              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\3Footer\\MyName.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\3Footer\\MyName.xaml",
+              "RelativeToolTip": "Pr3-Server\\Frames\\3Footer\\MyName.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:05:26.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyName.g.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs",
+              "RelativeDocumentMoniker": "Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs",
+              "RelativeToolTip": "Pr3-Client\\obj\\Debug\\net8.0-windows\\Frames\\3Footer\\MyName.g.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:24:40.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrameNav.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FrameNav.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\FrameNav.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FrameNav.cs",
+              "RelativeToolTip": "Pr3-Server\\ClassOpt\\FrameNav.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAArwAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:46:27.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Subject.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\1Header\\Subject.xaml",
+              "RelativeDocumentMoniker": "Pr3-Server\\Frames\\1Header\\Subject.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\Frames\\1Header\\Subject.xaml",
+              "RelativeToolTip": "Pr3-Server\\Frames\\1Header\\Subject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:04:40.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\App.xaml.cs",
+              "RelativeToolTip": "Pr3-Server\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T15:05:04.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Subject.xaml",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\1Header\\Subject.xaml",
+              "RelativeDocumentMoniker": "Pr2\\Frames\\1Header\\Subject.xaml",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr2\\Frames\\1Header\\Subject.xaml",
+              "RelativeToolTip": "Pr2\\Frames\\1Header\\Subject.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T15:03:42.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FileInfoView.cs",
+              "DocumentMoniker": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileInfoView.cs",
+              "RelativeDocumentMoniker": "Pr3-Server\\ClassOpt\\FileInfoView.cs",
+              "ToolTip": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr3-Server\\ClassOpt\\FileInfoView.cs",
+              "RelativeToolTip": "Pr3-Server\\ClassOpt\\FileInfoView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:53:40.257Z"
             }
           ]
         },
         {
-          "DockedWidth": 215,
+          "DockedWidth": 179,
           "SelectedChildIndex": -1,
           "Children": [
             {

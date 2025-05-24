@@ -12,6 +12,7 @@ using System.Windows.Shapes;
 using Pr3_Server.Frames._1Header;
 using Pr3_Server.Frames._2Body;
 using Pr3_Server.Frames._3Footer;
+using System.IO;
 
 namespace Pr3_Server;
 
@@ -33,5 +34,17 @@ public partial class MainWindow : Window
 
         FrameNav.conrtollerSubject = SubjectPlace;
         SubjectPlace.Navigate(new Subject());
+
+        // Например, запись на рабочий стол:
+        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        string logFilePath = System.IO.Path.Combine(desktopPath, "log-server.txt");
+
+        FileStream fs = new FileStream(logFilePath, FileMode.Create);
+        StreamWriter sw = new StreamWriter(fs) { AutoFlush = true };
+        Console.SetOut(sw);
+
+        Console.WriteLine("Это сообщение записано в log-server.txt");
     }
+
+    //public object MainContentControl { get; internal set; }
 }

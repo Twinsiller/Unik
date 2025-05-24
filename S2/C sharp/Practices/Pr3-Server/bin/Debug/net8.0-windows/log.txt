@@ -1,0 +1,2 @@
+Это сообщение записано в log.txt
+Ошибка (Нужны цЫфры): The input string 'fdsfds' was not in a correct format.
