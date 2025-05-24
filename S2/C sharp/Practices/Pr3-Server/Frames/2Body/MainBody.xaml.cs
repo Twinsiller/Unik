@@ -1,7 +1,7 @@
 ﻿using Pr3_Server.ClassOpt;
-using Server.Classes;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,16 +23,44 @@ namespace Pr3_Server.Frames._2Body
     public partial class MainBody : Page
     {
         GodServer gs = new GodServer();
+        ObservableCollection<FileInfoView> Files { get; set; } = new ObservableCollection<FileInfoView>();
         public MainBody()
         {
             InitializeComponent();
+            FilesDataGrid.ItemsSource = Files;
         }
 
-        private async void StartAwaitingFiles(object sender, RoutedEventArgs e)
+        public void AddFile(string fileName)
         {
-
-            gs.AddServer();
+            Files.Add(new FileInfoView
+            {
+                FileName = fileName
+            });
         }
 
+        private void StartAwaitingFiles(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                gs.AddServer(int.Parse(serverPort.Text.Trim()));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка (Нужны цЫфры): {ex.Message}");
+            }
+           
+        }
+
+        private void StopAwaitingFiles(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                gs.DeleteServer(int.Parse(serverPort.Text.Trim()));
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Ошибка (Нужны цЫфры): {ex.Message}");
+            }
+        }
     }
 }

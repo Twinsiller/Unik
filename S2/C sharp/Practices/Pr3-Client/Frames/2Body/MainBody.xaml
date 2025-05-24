@@ -1,0 +1,30 @@
+﻿<Page x:Class="Pr3_Client.Frames._2Body.MainBody"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Pr3_Client.Frames._2Body"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="MainBody">
+
+    <Grid Style="{StaticResource GridPanelFile}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ListBox Style="{StaticResource TextAtMenu}" x:Name="FileList_Name" Grid.Row="0"/>
+        <Grid VerticalAlignment="Center" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Выбрать файл" Click="SelectFile_Click" Style="{StaticResource ButtonAtMenu}" VerticalAlignment="Center" Grid.Column="0"/>
+            <Button Content="Отправить файл" Click="SendFile_Click" Style="{StaticResource ButtonAtMenu}" VerticalAlignment="Center" Grid.Column="2"/>
+        </Grid>
+        <TextBox  Style="{StaticResource TextBoxAtMenu}" Grid.Row="2" x:Name="serverPort"/>
+        <Image HorizontalAlignment="Left" Height="13" Margin="48,18,0,0" Grid.Row="2" VerticalAlignment="Top" Width="44"/>
+    </Grid>
+</Page>

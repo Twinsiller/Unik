@@ -12,6 +12,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="50*"/>
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0" Style="{StaticResource GridPanelFile}" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -22,21 +23,26 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <TextBox Style="{StaticResource TextBoxAtMenu}" />
+                <TextBox Style="{StaticResource TextBoxAtMenu}" x:Name="serverPort"/>
                 <Button Click="StartAwaitingFiles" Style="{StaticResource ButtonAtMenu}" Grid.Row="1"/>
-                <Button Style="{StaticResource ButtonAtMenu}" Grid.Row="2"/>
+                <Button Click="StopAwaitingFiles" Style="{StaticResource ButtonAtMenu}" Grid.Row="2"/>
                 <Button Style="{StaticResource ButtonAtMenu}" Grid.Row="3"/>
 
             </Grid>
         </Grid>
 
-        <Grid Grid.Column="1" Style="{StaticResource GridPanelFile}">
+        <Grid Grid.Column="2" Style="{StaticResource GridPanelFile}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="30"></RowDefinition>
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
             <TextBlock Text="Переданные файлы" VerticalAlignment="Center" />
-            <TextBlock TextWrapping="Wrap" Grid.Row="1"/>
+            <DataGrid x:Name="FilesDataGrid" AutoGenerateColumns="False" CanUserAddRows="False" Grid.Row="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Порт" Binding="{Binding Port}" Width="*"/>
+                    <DataGridTextColumn Header="Файл" Binding="{Binding FileName}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
 
         </Grid>
 

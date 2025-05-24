@@ -5,15 +5,23 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Net;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using Pr3_Server.ClassOpt;
+using System.Collections.ObjectModel;
+using System.Windows;
+using Pr3_Server.Frames._2Body;
 
-namespace Server.Classes
+namespace Pr3_Server.ClassOpt
 {
-    internal class FileReceiverServer
+    class FileReceiverServer
     {
-        string directoryFileName = "ReceivedFiles";
+        //public ObservableCollection<FileInfoView> Files { get; set; }
 
+        private readonly string directoryFileName = "ReceivedFiles";
         public int _port { get; }
+        private TcpListener _server;
+        private CancellationTokenSource _cts;
 
         public FileReceiverServer(int port)
         {
@@ -21,91 +29,113 @@ namespace Server.Classes
             Start();
         }
 
-        
+        public void Start()
+        {
+            _cts = new CancellationTokenSource();
+            Task.Run(() => RunServer(_cts.Token));
+        }
+
+        public void Stop()
+        {
+            _cts?.Cancel();
+            _server?.Stop();
+            Console.WriteLine($"Сервер на порту {_port} остановлен.");
+        }
+
+        private async Task RunServer(CancellationToken token)
+        {
+            try
+            {
+                _server = new TcpListener(IPAddress.Loopback, _port);
+                _server.Start();
+                Console.WriteLine($"Сервер запущен на порту {_port}. Ожидание подключений...");
+
+                while (!token.IsCancellationRequested)
+                {
+                    if (_server.Pending())
+                    {
+                        TcpClient client = await _server.AcceptTcpClientAsync();
+                        Console.WriteLine("Клиент подключен.");
+                        _ = Task.Run(() => HandleReadFileFromPol(client));
+                    }
+                    else
+                    {
+                        await Task.Delay(100, token); // Немного подождать, если нет клиентов
+                    }
+                }
+            }
+            catch (Exception ex) when (!(ex is OperationCanceledException))
+            {
+                Console.WriteLine($"Ошибка в сервере: {ex.Message}");
+            }
+        }
 
         private void HandleReadFileFromPol(TcpClient client)
         {
             try
             {
-                Console.WriteLine($"Точно поймал");
                 using (client)
                 using (NetworkStream stream = client.GetStream())
                 using (BinaryReader reader = new BinaryReader(stream))
                 {
-                    Console.WriteLine("Клиент подключен. Приём файла...");
+                    Console.WriteLine("Приём файла...");
 
-                    int fileNameLength = reader.ReadInt32(); // Читаем имя файла
-                    string fileName = System.Text.Encoding.UTF8.GetString(reader.ReadBytes(fileNameLength));
+                    int fileNameLength = reader.ReadInt32();
+                    string fileName = Encoding.UTF8.GetString(reader.ReadBytes(fileNameLength));
+                    long fileSize = reader.ReadInt64();
 
+                    Directory.CreateDirectory(directoryFileName);
+                    string savePath = Path.Combine(directoryFileName, fileName);
 
-                    long fileSize = reader.ReadInt64(); // Читаем размер файла
-
-
-                    string savePath = Path.Combine(directoryFileName, fileName); // Путь к папке, где хранится файл
-
-
-                    Directory.CreateDirectory(directoryFileName); // Создаем директорию, если она не существует
-
-
-                    if (File.Exists(savePath)) // Проверяем, существует ли файл с таким именем
+                    // Уникальное имя файла
+                    if (File.Exists(savePath))
                     {
-                        // Изменяем имя файла, добавляя индекс к имени (например, file_1.txt)
-                        string fileExtension = Path.GetExtension(fileName); // Получаем расширение файла (например, .txt)
-                        string fileNameWithoutExtension = Path.GetFileNameWithoutExtension(fileName); // Имя файла без расширения
-
+                        string ext = Path.GetExtension(fileName);
+                        string name = Path.GetFileNameWithoutExtension(fileName);
                         int counter = 1;
-                        // Формируем новое имя файла, добавляя индекс, если файл с таким именем уже существует
                         do
                         {
-                            // Новый файл с индексом (fileName_1.txt, fileName_2.txt и так далее)
-                            fileName = $"{fileNameWithoutExtension}_{counter}{fileExtension}";
+                            fileName = $"{name}_{counter}{ext}";
                             savePath = Path.Combine(directoryFileName, fileName);
                             counter++;
-                        } while (File.Exists(savePath)); // Повторяем, пока не найдем уникальное имя
+                        } while (File.Exists(savePath));
                     }
 
-
-                    using (FileStream fileStream = new FileStream(savePath, FileMode.Create, FileAccess.Write)) // Теперь сохраняем файл по уникальному пути
+                    using (FileStream fileStream = new FileStream(savePath, FileMode.Create, FileAccess.Write))
                     {
                         byte[] buffer = new byte[4096];
-                        long totalBytesRead = 0;
+                        long totalRead = 0;
                         int bytesRead;
 
-                        while (totalBytesRead < fileSize && (bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
+                        while (totalRead < fileSize && (bytesRead = stream.Read(buffer, 0, buffer.Length)) > 0)
                         {
                             fileStream.Write(buffer, 0, bytesRead);
-                            totalBytesRead += bytesRead;
+                            totalRead += bytesRead;
                         }
                     }
 
-
                     Console.WriteLine($"Файл '{fileName}' успешно принят!");
+                    Application.Current.Dispatcher.Invoke(() =>
+                    {
+                        var mainBody = FrameNav.conrtollerMainBody.Content as MainBody;
+
+                        if (mainBody != null)
+                        {
+                            mainBody.AddFile(fileName); 
+                        }
+                    });
+
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка: {ex.Message}");
-            }
-        }
-
-        private void Start()
-        {
-            TcpListener server = new TcpListener(IPAddress.Loopback, _port);
-            server.Start();
-            Console.WriteLine($"Сервер запущен на порту {_port}. Ожидание подключений...");
-
-            while (true)
-            {
-                Console.WriteLine($"...");
-                TcpClient client = server.AcceptTcpClient(); // Ожидание клиента
-                Console.WriteLine($"Поймал");
-                Task.Run(() => HandleReadFileFromPol(client)); // Запускаем обработку в отдельной задаче
+                Console.WriteLine($"Ошибка при приёме файла: {ex.Message}");
             }
         }
 
         ~FileReceiverServer()
         {
-
+            Stop();
         }
     }
 }
