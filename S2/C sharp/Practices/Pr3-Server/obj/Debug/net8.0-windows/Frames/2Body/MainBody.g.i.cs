@@ -69,7 +69,7 @@ namespace Pr3_Server.Frames._2Body {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Pr3-Server;component/frames/2body/mainbody.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Pr3-Server;V1.0.0.0;component/frames/2body/mainbody.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frames\2Body\MainBody.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

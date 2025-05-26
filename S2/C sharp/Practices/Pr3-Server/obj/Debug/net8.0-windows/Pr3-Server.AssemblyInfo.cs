@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pr3-Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bac02bfcc5a7823e6ce0ebaf8b36a10945dc4c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9af3890ea69829eda7c93e8d56868c5e7cc52afe")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pr3-Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pr3-Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

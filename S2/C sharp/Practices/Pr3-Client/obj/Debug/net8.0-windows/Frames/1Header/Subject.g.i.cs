@@ -53,7 +53,7 @@ namespace Pr3_Client.Frames._1Header {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Pr3-Client;component/frames/1header/subject.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Pr3-Client;V1.0.0.0;component/frames/1header/subject.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Frames\1Header\Subject.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
