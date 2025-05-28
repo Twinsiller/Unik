@@ -1,4 +1,8 @@
-﻿using System.Text;
+﻿using Pr4_Client.ClassOpt;
+using Pr4_Client.Frames._1Header;
+using Pr4_Client.Frames._2Body;
+using Pr4_Client.Frames._3Footer;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,5 +23,14 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
+        FrameNav.conrtollerMyName = NamePlace;
+        NamePlace.Navigate(new MyName());
+
+        FrameNav.conrtollerMainBody = MainBodyPlace;
+        MainBodyPlace.Navigate(new MainBody());
+
+        FrameNav.conrtollerSubject = SubjectPlace;
+        SubjectPlace.Navigate(new Subject());
     }
 }
