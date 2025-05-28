@@ -9,4 +9,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="ClassOpt\" />
+    <Folder Include="Frames\1Header\" />
+    <Folder Include="Frames\2Body\" />
+    <Folder Include="Frames\3Footer\" />
+  </ItemGroup>
+
 </Project>
