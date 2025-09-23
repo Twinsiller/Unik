@@ -1,5 +1,7 @@
-﻿namespace Pr1
+﻿
+namespace Pr1
 {
+    #include <clocale>
     using Pr1.Classes;
     using System.IO;
     using static System.Runtime.InteropServices.JavaScript.JSType;

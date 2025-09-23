@@ -28,3 +28,11 @@ C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr1\bin\Debu
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr1\bin\Debug\net8.0\Pr1.pdb
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.genruntimeconfig.cache
 C:\Users\boldi\OneDrive\Desktop\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\ref\Pr1.dll
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.AssemblyInfoInputs.cache
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.AssemblyInfo.cs
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.csproj.CoreCompileInputs.cache
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.sourcelink.json
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.dll
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\refint\Pr1.dll
+Z:\Documents\Something\Unik\S2\C sharp\Practices\Pr1\obj\Debug\net8.0\Pr1.pdb
