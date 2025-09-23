@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj": {}
+    "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj": {
+    "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj",
+        "projectUniqueName": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj",
         "projectName": "Pr1",
-        "projectPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj",
+        "projectPath": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\Pr1.csproj",
         "packagesPath": "C:\\Users\\boldi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\boldi\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\obj\\",
+        "outputPath": "C:\\Users\\boldi\\OneDrive\\Desktop\\Something\\Unik\\S2\\C sharp\\Practices\\Pr1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
