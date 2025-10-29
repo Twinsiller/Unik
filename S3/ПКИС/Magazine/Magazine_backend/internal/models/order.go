@@ -12,10 +12,24 @@ type Order struct {
 	CreatedAt     time.Time `gorm:"type:timestamptz;default:now()" json:"created_at"` // дата заказа / order date
 	TotalAmount   float64   `gorm:"type:numeric(14,2);default:0" json:"total_amount"` // сумма заказа / total amount
 	PaymentMethod string    `gorm:"type:text" json:"payment_method"`                  // способ оплаты / payment method
-	ShiftID       *string   `gorm:"type:text" json:"shift_id"`                        // смена кассира / shift ID
+	ShiftID       *string   `gorm:"type:text;default:unknown" json:"shift_id"`        // смена кассира / shift ID
 
-	Items []OrderItem `gorm:"foreignKey:OrderID;references:ID"` // товары в заказе / order items
+	ItemList []OrderItem `gorm:"foreignKey:OrderID;references:ID" json:"item_list"` // товары в заказе / order items
 }
 
-type OrderUpdate struct {
+type CreateOrder struct {
+	CashierID int64 `json:"cashier_id" binding:"required"` // ID кассира / cashier ID
+
+	TotalAmount   float64 `json:"total_amount" binding:"required"`   // сумма заказа / total amount
+	PaymentMethod string  `json:"payment_method" binding:"required"` // способ оплаты / payment method
+	ShiftID       *string `json:"shift_id"`                          // смена кассира / shift ID
+}
+
+type UpdateOrder struct {
+	CashierID *int64 `json:"cashier_id"` // ID кассира / cashier ID
+
+	CreatedAt     *time.Time `json:"created_at"`     // дата заказа / order date
+	TotalAmount   *float64   `json:"total_amount"`   // сумма заказа / total amount
+	PaymentMethod *string    `json:"payment_method"` // способ оплаты / payment method
+	ShiftID       *string    `json:"shift_id"`       // смена кассира / shift ID
 }

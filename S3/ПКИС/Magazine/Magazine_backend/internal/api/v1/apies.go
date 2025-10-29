@@ -40,17 +40,20 @@ func Apies() {
 
 	orders := routerv1.Group("/orders")
 	{
-		// Получение всех профилей
+		// Получение всех заказов
 		orders.GET("", service.GetOrders)
 
-		// Получение поста по ID
-		// orders.GET("/:id", service.GetOrderById)
+		// Получение заказа по ID
+		orders.GET("/:id", service.GetOrderById)
 
-		// // Обновление существующего профиля
-		// orders.PUT("/:id", service.UpdateOrder)
+		// Создание нового заказа
+		orders.POST("", service.CreateOrder)
 
-		// // Удаление профиля
-		// orders.DELETE("/:id", service.DeleteOrderById)
+		// // Обновление существующего заказа
+		orders.PUT("/:id", service.UpdateOrder)
+
+		// // Удаление заказа
+		orders.DELETE("/:id", service.DeleteOrder)
 	}
 
 	//router.Run(":8080") // Это прошлое

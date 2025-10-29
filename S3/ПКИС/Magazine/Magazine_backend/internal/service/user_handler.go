@@ -74,7 +74,7 @@ func GetUserById(c *gin.Context) {
 
 	// Использование GORM для поиска профиля по ID
 	var user models.User
-	err := database.DbPostgres.First(&user, id).Error
+	err := database.DbPostgres.Preload("OrderList").First(&user, id).Error
 	if err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"message": "user not found"})
@@ -101,7 +101,7 @@ func GetUserById(c *gin.Context) {
 // @Failure		500	{object}	errorResponse
 // @Router			/register [post]
 func CreateUser(c *gin.Context) {
-	req := models.CreateUserRequest{}
+	req := models.CreateUser{}
 
 	// Парсим JSON из тела запроса в структуру User
 	if err := c.BindJSON(&req); err != nil {
@@ -134,8 +134,9 @@ func CreateUser(c *gin.Context) {
 	p := models.User{
 		Nickname:     req.Nickname,
 		HashPassword: hash,
-		Role:         req.Role,
 		Name:         req.Name,
+		Role:         req.Role,
+		Email:        req.Email,
 	}
 
 	// Создаем новый профиль в базе данных с использованием GORM
@@ -164,7 +165,7 @@ func CreateUser(c *gin.Context) {
 // @Router			/v1/users/{id} [put]
 func UpdateUser(c *gin.Context) {
 	id := c.Param("id")
-	req := models.CreateUserRequest{}
+	req := models.UpdateUser{}
 
 	// Парсим JSON из тела запроса
 	if err := c.BindJSON(&req); err != nil {
@@ -186,26 +187,20 @@ func UpdateUser(c *gin.Context) {
 	}
 
 	var hash string
-	var err error
-	if req.Password != "" {
+	if req.HashPassword != nil && *req.HashPassword != "" {
 		// Хеширование пароля
-		hash, err = password.Hash(req.Password)
+		var err error
+		hash, err = password.Hash(*req.HashPassword)
 		if err != nil {
 			c.JSON(http.StatusBadRequest, gin.H{"message": "Problem with password hashing"})
 			utils.Logger.Error("Hash wasn't working(user_handler.go|CreateUser|):", err)
 			return
 		}
-	}
-
-	p := models.User{
-		Nickname:     req.Nickname,
-		HashPassword: hash,
-		Role:         req.Role,
-		Name:         req.Name,
+		req.HashPassword = &hash
 	}
 
 	// Обновляем профиль по ID с использованием GORM
-	if err := database.DbPostgres.Model(&models.User{}).Where("id = ?", id).Updates(p).Error; err != nil {
+	if err := database.DbPostgres.Model(&models.User{}).Where("id = ?", id).Updates(req).Error; err != nil {
 		utils.Logger.Error("Update isn't done(user_handler.go|UpdateUser|):", err)
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
 		return
@@ -245,7 +240,7 @@ func DeleteUserById(c *gin.Context) {
 	// Удаляем профиль по ID с использованием GORM
 	if err := database.DbPostgres.Delete(&models.User{}, id).Error; err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"message": "user wasn't deleted"})
-		utils.Logger.Error("Delete isn't done(user_handler.go|DeleteUser|):", err)
+		utils.Logger.Error("Delete isn't done(user_handler.go|DeleteUserById|):", err)
 		return
 	}
 
@@ -268,9 +263,9 @@ func DeleteUserByNickname(c *gin.Context) {
 	nickname := c.Param("nickname")
 
 	// Удаляем профиль по ID с использованием GORM
-	if err := database.DbPostgres.Where("nickname = ?", nickname).Delete(&models.User{}).Error; err != nil {
+	if err := database.DbPostgres.Where("nickname = ?", nickname).Unscoped().Delete(&models.User{}).Error; err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"message": "user wasn't deleted"})
-		utils.Logger.Error("Delete isn't done(user_handler.go|DeleteUser|):", err)
+		utils.Logger.Error("Delete isn't done(user_handler.go|DeleteUserByNickname|):", err)
 		return
 	}
 

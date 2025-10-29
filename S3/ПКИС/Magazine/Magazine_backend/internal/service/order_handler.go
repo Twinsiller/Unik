@@ -28,7 +28,7 @@ func GetOrders(c *gin.Context) {
 
 	var orders []models.Order
 
-	err := database.DbPostgres.Limit(limit).Offset(offset).Find(&orders).Error
+	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Cashier").Find(&orders).Error
 	if err != nil {
 		utils.Logger.Error("Неудачный запрос|(order_handler.go|GetOrders|):", err)
 		c.JSON(http.StatusBadRequest, gin.H{"message": "Bad request"})
@@ -45,7 +45,7 @@ func GetOrderById(c *gin.Context) {
 
 	var order models.Order
 
-	err := database.DbPostgres.First(&order, id).Error
+	err := database.DbPostgres.Preload("Cashier").First(&order, id).Error
 	if err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"message": "order not found"})
@@ -60,27 +60,41 @@ func GetOrderById(c *gin.Context) {
 }
 
 func CreateOrder(c *gin.Context) {
-	req := models.Order{}
+	print("Yep")
+	req := models.CreateOrder{}
 
 	if err := c.BindJSON(&req); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"message": "invalid request"})
 		utils.Logger.Error("Data is bad|(order_handler.go|CreateOrder|)|:", err)
 		return
 	}
+	print("Yep2")
+	order := models.Order{
+		CashierID:     req.CashierID,
+		TotalAmount:   req.TotalAmount,
+		PaymentMethod: req.PaymentMethod,
+		ShiftID:       req.ShiftID,
+	}
 
-	if err := database.DbPostgres.Create(&req).Error; err != nil {
+	if err := database.DbPostgres.Create(&order).Error; err != nil {
 		utils.Logger.Error("Insert isn't done(order_handler.go|CreateOrder|):", err)
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
 		return
 	}
 
-	c.JSON(http.StatusCreated, req)
+	if err := database.DbPostgres.Preload("Cashier").Last(&order).Error; err != nil {
+		utils.Logger.Error("Сan't receive order(order_handler.go|CreateOrder|):", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
+		database.DbPostgres.Delete(&order)
+		return
+	}
+	c.JSON(http.StatusCreated, order)
 }
 
 func UpdateOrder(c *gin.Context) {
 	id := c.Param("id")
 
-	req := models.Order{}
+	req := models.UpdateOrder{}
 
 	// Парсим JSON из тела запроса
 	if err := c.BindJSON(&req); err != nil {
@@ -94,41 +108,47 @@ func UpdateOrder(c *gin.Context) {
 	var existing models.Order
 	if err := database.DbPostgres.Where("id = ?", id).First(&existing).Error; err != nil {
 		if errors.Is(err, gorm.ErrRecordNotFound) {
-			c.JSON(http.StatusNotFound, gin.H{"message": "user not found"})
+			c.JSON(http.StatusNotFound, gin.H{"message": "order not found"})
 			return
 		}
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "database error"})
-		utils.Logger.Error("DB error when checking user (user_handler.go|UpdateUser):", err)
+		utils.Logger.Error("DB error when checking order (order_handler.go|UpdateOrder):", err)
 		return
 	}
 
-	p := models.User{
-		Nickname:     req.Nickname,
-		HashPassword: hash,
-		Role:         req.Role,
-		Name:         req.Name,
-	}
-
 	// Обновляем профиль по ID с использованием GORM
-	if err := database.DbPostgres.Model(&models.User{}).Where("id = ?", id).Updates(p).Error; err != nil {
-		utils.Logger.Error("Update isn't done(user_handler.go|UpdateUser|):", err)
+	if err := database.DbPostgres.Model(&models.Order{}).Where("id = ?", id).Updates(req).Error; err != nil {
+		utils.Logger.Error("Update isn't done(order_handler.go|UpdateOrder|):", err)
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
 		return
 	}
 
-	// Использование GORM для поиска профиля по ID
-	var user models.User
+	var order models.Order
 
-	if err := database.DbPostgres.First(&user, id).Error; err != nil {
+	err := database.DbPostgres.Preload("Cashier").First(&order, id).Error
+	if err != nil {
 		if err == gorm.ErrRecordNotFound {
-			c.JSON(http.StatusNotFound, gin.H{"message": "user not found"})
+			c.JSON(http.StatusNotFound, gin.H{"message": "order not found"})
 		} else {
 			c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
 		}
-		utils.Logger.Error("Неудачный запрос|(user_handler.go|GetUserById|):", err)
+		utils.Logger.Error("Неудачный запрос|(order_handler.go|UpdateOrder|):", err)
 		return
 	}
 
 	// Отправляем успешный ответ с обновленным профилем
-	c.JSON(http.StatusAccepted, user)
+	c.JSON(http.StatusOK, order)
+}
+
+func DeleteOrder(c *gin.Context) {
+	id := c.Param("id")
+
+	if err := database.DbPostgres.Where("id = ?", id).Delete(&models.Order{}).Error; err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"message": "order wasn't deleted"})
+		utils.Logger.Error("Delete isn't done(order_handler.go|DeleteOrder|):", err)
+		return
+	}
+
+	// Отправляем успешный ответ о удалении
+	c.JSON(http.StatusAccepted, gin.H{"message": "order was deleted"})
 }

@@ -25,3 +25,370 @@
 {"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-13T17:56:32+03:00"}
 {"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-13T17:56:32+03:00"}
 {"level":"info","msg":"Server exiting","time":"2025-10-13T17:56:32+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-21T17:23:24+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-21T17:23:24+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-21T17:23:24+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-21T17:23:25+03:00"}
+{"level":"error","msg":"Data is bad|(user_handler.go|UpdateUser|)|:EOF","time":"2025-10-21T19:22:10+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-10-21T19:37:49+03:00"}
+{"level":"error","msg":"Неудачный запрос|(order_handler.go|GetOrderById|):record not found","time":"2025-10-21T19:37:53+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-23T17:39:00+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-23T17:39:00+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-23T17:39:00+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-23T17:42:53+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-23T17:42:53+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-23T17:42:53+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-23T17:42:53+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-10-23T18:50:04+03:00"}
+{"level":"error","msg":"Неудачный запрос|(order_handler.go|GetOrderById|):record not found","time":"2025-10-23T18:50:09+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-23T18:55:06+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-23T18:55:06+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-23T18:55:06+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-23T18:58:15+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-23T18:58:15+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-23T18:58:15+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-23T18:58:15+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Storm l-Xf77122VVCFH3ZZuYw9RpWVdG4BnLs2w==$#$11$#$67f4c89a5b9134e274241837dd4a37ca9468e46c09222eb4467005c5$#$33c04a013a8fb2423349b1f2d43aa17204f0ab07e0d23f6b0d15bc3e57ed034d Bob cashier 0x14000030c50 2025-10-23 19:02:09.15951 +0300 MSK []} {2 Wulfee QcA0UtJnRKYBOP6mwiIcFXEFo6ZLERyYgto8VXh0OkPLB1AabF7l8Gim2IG-FOpAGN-adotubRB5DY2XQoy1ZwggmesKmm4WW_Ng-8H20Ix-TO8-jc9Mu8vYfg8ccp7j0A==$#$13$#$d4bf9094234d813a1b698ef9f7afe8d05a7cc18a7b48bc9b67ca762e$#$2221677f40ddac15f892c9cabe8bf1431f62ef2f593682bcfee39aa37cfdb41d Duck administrator 0x14000030d40 2025-10-23 19:03:25.39217 +0300 MSK []}]","time":"2025-10-23T19:03:27+03:00"}
+{"level":"error","msg":"Data is bad|(user_handler.go|UpdateUser|)|:Key: 'CreateUserRequest.Name' Error:Field validation for 'Name' failed on the 'required' tag\nKey: 'CreateUserRequest.Role' Error:Field validation for 'Role' failed on the 'required' tag","time":"2025-10-23T19:04:17+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T16:47:50+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T16:47:50+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T16:47:50+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T16:47:57+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T16:47:57+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T16:47:57+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T16:47:57+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T16:48:22+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T16:48:22+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T16:48:22+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T16:49:05+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T16:49:05+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T16:49:05+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T16:49:05+03:00"}
+{"level":"error","msg":"Data is bad|(user_handler.go|CreateUser|)|:Key: 'CreateUserRequest.Role' Error:Field validation for 'Role' failed on the 'required' tag","time":"2025-10-25T16:50:21+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Wulfee r1U3XrcHc23u0Sv0bwBd01IZ298WdHYhZUqiN8WtA941pRkP_h_PsTD47t1WlyRE$#$3$#$de18ad8769f8f949e8769665978ac295df7943a8019f5a9a02844ed5$#$069f9058daa7f021b142125575d3b936a719ea4123c1b274016349d74e09cc57 Duck administrator 0x14000030300 2025-10-25 16:49:20.268 +0300 MSK []} {2 Derwater k1FnC2NWGmu0OSBaXss5xUWD8DewVaSoUdIdMSF1iq-FE06ujVOYvDefhl47j8g57B37cxDwBudYSQe9345Cc83d-KuJ5VFFNdlYuN3ZMNp9tPvAhXuhYk8Fu7pNQ4qI16y2$#$2$#$9c1bfbef6ebc1cc4805d3d5ea0aa9754f9d8c9700460148672cdde10$#$cfb76e7134cb2847695866c04997a49b14990ab480d912900defccd4af97b6d3 Igor' cashier \u003cnil\u003e 2025-10-25 16:50:09.658584 +0300 MSK []}]","time":"2025-10-25T16:50:31+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T16:53:00+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T16:53:00+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T16:53:00+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T16:53:59+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T16:53:59+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T16:53:59+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T16:53:59+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T16:55:09+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T16:55:09+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T16:55:09+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T16:55:13+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T16:55:13+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T16:55:13+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T16:55:14+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T16:56:57+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T16:56:57+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T16:56:57+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T16:57:02+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T16:57:02+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T16:57:02+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T16:57:02+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:11:49+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:11:49+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:11:49+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:12:17+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:12:17+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:12:17+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:12:18+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:13:27+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:13:27+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:13:27+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:13:30+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:13:30+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:13:30+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:13:31+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:14:38+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:14:38+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:14:38+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:14:49+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:14:49+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:14:49+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:14:50+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Wulfee r1U3XrcHc23u0Sv0bwBd01IZ298WdHYhZUqiN8WtA941pRkP_h_PsTD47t1WlyRE$#$3$#$de18ad8769f8f949e8769665978ac295df7943a8019f5a9a02844ed5$#$069f9058daa7f021b142125575d3b936a719ea4123c1b274016349d74e09cc57 Duck administrator 0x14000594420 2025-10-25 16:49:20.268 +0300 MSK []} {2 Durwater  Sanya cashier \u003cnil\u003e 2025-10-25 16:50:09.658584 +0300 MSK []}]","time":"2025-10-25T17:18:09+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Wulfee r1U3XrcHc23u0Sv0bwBd01IZ298WdHYhZUqiN8WtA941pRkP_h_PsTD47t1WlyRE$#$3$#$de18ad8769f8f949e8769665978ac295df7943a8019f5a9a02844ed5$#$069f9058daa7f021b142125575d3b936a719ea4123c1b274016349d74e09cc57 Duck administrator 0x14000594a10 2025-10-25 16:49:20.268 +0300 MSK []} {2 Durwater  Sanya cashier \u003cnil\u003e 2025-10-25 16:50:09.658584 +0300 MSK []}]","time":"2025-10-25T17:19:01+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:21:57+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:21:57+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:21:57+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:22:01+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:22:01+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:22:01+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:22:01+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:23:07+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:23:07+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:23:07+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:23:54+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:23:54+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:23:54+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:23:54+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:24:47+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:24:47+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:24:47+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:24:50+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:24:50+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:24:50+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:24:50+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:31:46+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:31:46+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:31:46+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:31:51+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:31:51+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:31:51+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:31:51+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:35:12+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:35:12+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:35:12+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:35:16+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:35:16+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:35:16+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:35:16+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:35:56+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:35:56+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:35:56+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:36:00+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:36:00+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:36:00+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:36:00+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:46:21+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:46:21+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:46:21+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:46:25+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:46:25+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:46:25+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:46:25+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:46:50+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:46:50+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:46:50+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:46:52+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:46:52+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:46:52+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:46:52+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:48:26+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:48:26+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:48:26+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:48:32+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:48:32+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:48:32+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:48:32+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:49:57+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:49:57+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:49:57+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:50:00+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:50:00+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:50:00+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:50:00+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-25T17:50:59+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-25T17:50:59+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-25T17:50:59+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-25T17:51:02+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-25T17:51:02+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-25T17:51:02+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-25T17:51:02+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{2 Derwater z9QtFSZAsZrBYypx47d9CiRZxffx7OURbesyehxTLSOUWKfnHgVZ9Zopo70e6sfzUQ==$#$16$#$f521ca0b232dc90cd0a0b86b4d7e042670d145b6f446b412f9f4ff64$#$ea05a7eeeda69f613994138cef908c0628c6c63a882faf9c726e5838e5ee0a5c Sanya cashier \u003cnil\u003e 2025-10-25 16:50:09.658584 +0300 MSK []}]","time":"2025-10-27T18:49:45+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-27T19:12:56+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-27T19:12:56+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-27T19:12:56+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-27T19:13:00+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-27T19:13:00+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-27T19:13:00+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-27T19:13:00+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-27T19:13:38+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-27T19:13:38+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-27T19:13:38+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-27T19:13:40+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-27T19:13:40+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-27T19:13:40+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-27T19:13:41+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-27T19:18:26+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-27T19:18:26+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-27T19:18:26+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-27T19:18:28+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-27T19:18:28+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-27T19:18:28+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-27T19:18:28+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-27T19:18:55+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-27T19:18:55+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-27T19:18:55+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-27T19:18:59+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-27T19:18:59+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-27T19:18:59+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-27T19:18:59+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-10-27T19:26:33+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{2 2 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-27 19:26:39.927668 +0300 MSK 1234.53 cash 0x1400017e290 []} {3 2 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-27 19:26:48.742985 +0300 MSK 1234.53 cash 0x1400017e2e0 []}]","time":"2025-10-27T19:26:52+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-10-27T19:27:06+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-27T19:27:11+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-27T19:27:11+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-27T19:27:11+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-27T19:42:26+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-27T19:42:26+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-27T19:42:26+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-27T19:42:26+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []}]","time":"2025-10-29T16:31:02+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:31:32+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-10-29T16:31:38+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:31:53+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:32:35+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:33:33+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T16:40:29+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T16:40:29+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T16:40:29+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T16:40:32+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T16:40:32+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T16:40:32+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T16:40:32+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:40:35+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T16:43:50+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T16:43:50+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T16:43:50+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T16:43:54+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T16:43:54+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T16:43:54+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T16:43:55+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:44:03+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:45:47+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:json: cannot unmarshal string into Go struct field CreateOrder.total_amount of type float64","time":"2025-10-29T16:46:04+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:46:14+03:00"}
+{"level":"error","msg":"Data is bad|(order_handler.go|CreateOrder|)|:Key: 'CreateOrder.PaymentMethod' Error:Field validation for 'PaymentMethod' failed on the 'required' tag","time":"2025-10-29T16:46:46+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T16:52:43+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T16:52:43+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T16:52:43+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T16:52:46+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T16:52:46+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T16:52:46+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T16:52:46+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:04:35+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:04:35+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:04:35+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:04:38+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:04:38+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:04:38+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:04:38+03:00"}
+{"level":"error","msg":"Сan't receive order(order_handler.go|CreateOrder|):User: unsupported relations for schema Order","time":"2025-10-29T17:04:40+03:00"}
+{"level":"error","msg":"Сan't receive order(order_handler.go|CreateOrder|):User: unsupported relations for schema Order","time":"2025-10-29T17:05:10+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:08:47+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:08:47+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:08:47+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:08:50+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:08:50+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:08:50+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:08:50+03:00"}
+{"level":"error","msg":"Сan't receive order(order_handler.go|CreateOrder|):User: unsupported relations for schema Order","time":"2025-10-29T17:08:53+03:00"}
+{"level":"error","msg":"Сan't receive order(order_handler.go|CreateOrder|):User: unsupported relations for schema Order","time":"2025-10-29T17:09:09+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:10:14+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:10:14+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:10:14+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:10:16+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:10:16+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:10:16+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:10:16+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{1 1 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 cash 0x1400007e130 []} {2 1 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x1400007e180 []} {3 1 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 cash 0x1400007e1d0 []} {6 1 {0     \u003cnil\u003e 0001-01-01 00:00:00 +0000 UTC []} 2025-10-29 17:10:18.445345 +0300 MSK 123.42 cash 0x1400007e220 []}]","time":"2025-10-29T17:10:35+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:11:38+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:11:38+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:11:38+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:11:40+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:11:40+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:11:40+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:11:40+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{1 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 cash 0x140003c7ab0 []} {2 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x140003c7b00 []} {3 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 cash 0x140003c7b50 []} {6 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:10:18.445345 +0300 MSK 123.42 cash 0x140003c7ba0 []}]","time":"2025-10-29T17:11:43+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:37:45+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:37:45+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:37:45+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:37:48+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:37:48+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:37:48+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:37:48+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{2 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x14000482130 []} {1 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 CardNew 0x14000482180 []} {3 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 CardNew 0x140004821e0 []} {6 2 {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x14000482510 2025-10-29 17:40:01.143973 +0300 MSK []} 2025-10-29 17:10:18.445345 +0300 MSK 123.42 CardNew 0x14000482230 []}]","time":"2025-10-29T17:40:45+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x140005101d0 2025-10-29 17:40:01.143973 +0300 MSK []}]","time":"2025-10-29T17:48:54+03:00"}
+{"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-10-29T17:49:26+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T17:54:42+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T17:54:42+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T17:54:42+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T17:54:45+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T17:54:45+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T17:54:45+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T17:54:45+03:00"}
+{"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-10-29T17:54:50+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:10:02+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:10:02+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:10:02+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:10:17+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:10:17+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:10:17+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:10:25+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:10:25+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:10:25+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:20:01+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:20:01+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:20:01+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:20:01+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x140004941d0 2025-10-29 17:40:01.143973 +0300 MSK []}]","time":"2025-10-29T18:20:05+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:21:11+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:21:11+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:21:11+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:21:13+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:21:13+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:21:13+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:21:13+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x14000483ab0 2025-10-29 17:40:01.143973 +0300 MSK []}]","time":"2025-10-29T18:21:16+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:22:20+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:22:20+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:22:20+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:22:22+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:22:22+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:22:22+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:22:22+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x1400049c2c0 2025-10-29 17:40:01.143973 +0300 MSK []}]","time":"2025-10-29T18:23:57+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:25:18+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:25:18+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:25:18+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:25:20+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:25:20+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:25:20+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:25:20+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} {2 Twinsiller 6xfPBk7HvShnjqSWIJIQgPW-djEDbq6DMhFBaPF2AMeKQ0VjvQroEl-4w1PQnauMF2iBedN_ouX9sJv5Oj8oiEfOHcFuCzlc7nG-fUzKpQI=$#$8$#$35656567a3d768d7fb05fd8654876c383adea20dcdc7d80f6fd27ecb$#$98ffa5bc998496dadd1046328dbec545c3e61aa2091b124636d20a4daef53463 Leha admin 0x1400044c5a0 2025-10-29 17:40:01.143973 +0300 MSK []}]","time":"2025-10-29T18:25:24+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{2 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x140003ee140 []} {1 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 CardNew 0x140003ee190 []} {3 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 CardNew 0x140003ee1e0 []}]","time":"2025-10-29T18:41:03+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:41:12+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:41:12+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:41:12+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:41:14+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:41:14+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:41:14+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:41:15+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{2 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x1400025e490 []} {1 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 CardNew 0x1400025e4e0 []} {3 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 CardNew 0x1400025e530 []}]","time":"2025-10-29T18:41:17+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:50:18+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:50:18+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:50:18+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:50:21+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:50:21+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:50:21+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:50:52+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:50:52+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:50:52+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:52:29+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:52:29+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:52:29+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:52:29+03:00"}
+{"level":"info","msg":"GetOrders сработал: [{2 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:04:40.114752 +0300 MSK 123.42 cash 0x140003d8a60 []} {1 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 16:52:49.346413 +0300 MSK 123.42 CardNew 0x140003d8ab0 []} {3 1 {1 Derwater dp1IXWJ9PnqB_y6GbQ-QsgF62amtZrNC2XYZXq5Cix5rD1og4L_ceEacNbLbaRyZMzZuk85mfRUiERgL9MNNZSEkEekN6DCYYcswP9B8XIPJCVTNMPHwephC$#$16$#$78ec342862044ac3abb304225d454f42d2e989a71ba2f93d25710518$#$5a7e90dcf2b8fc85c507570bd0779999e71e39b8a8c9712b9f262707556d30e1 Igor' cashier \u003cnil\u003e 2025-10-27 19:42:29.606095 +0300 MSK []} 2025-10-29 17:05:10.109925 +0300 MSK 123.42 CardNew 0x140003d8b00 []}]","time":"2025-10-29T18:52:35+03:00"}
+{"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-10-29T18:52:39+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T18:55:13+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T18:55:13+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T18:55:13+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T18:55:16+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T18:55:16+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T18:55:16+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T18:55:16+03:00"}
+{"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-10-29T18:55:19+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T19:51:10+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T19:51:10+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T19:51:10+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-10-29T19:51:13+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-10-29T19:51:13+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-10-29T19:51:13+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-10-29T19:51:13+03:00"}
+{"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-10-29T19:51:16+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-10-29T23:46:00+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-10-29T23:46:00+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-10-29T23:46:00+03:00"}
