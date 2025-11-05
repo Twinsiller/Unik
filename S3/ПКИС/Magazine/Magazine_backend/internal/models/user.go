@@ -13,7 +13,7 @@ type User struct {
 	Email        *string   `gorm:"type:text;unique" json:"email"`                  // почта / email
 	HiredAt      time.Time `gorm:"type:timestamptz;default:now()" json:"hired_at"` // дата найма / hire date
 
-	OrderList []Order `gorm:"foreignKey:CashierID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:SET NULL" json:"order_list"` //gorm:"foreignKey:CashierID;references:ID; заказы, проведенные кассиром / orders created by this cashier
+	OrderList []Order `gorm:"foreignKey:CashierID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE" json:"order_list"` //gorm:"foreignKey:CashierID;references:ID; заказы, проведенные кассиром / orders created by this cashier
 }
 
 type CreateUser struct {

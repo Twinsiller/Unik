@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -g -nostartfiles -Map=Project.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Project -TC:\CooCox\CoIDE\configuration\ProgramData\Project/arm-gcc-link.ld -g -L..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\lib\armv7e-m\fpu -lm">
+      <target file="Project.elf" lastModified="199a5982602">
+         <source file="..\..\..\..\..\..\..\Program Files (x86)\GNU Tools ARM Embedded\4.9 2014q4\arm-none-eabi\lib\armv7e-m\fpu\libm.a" lastModified="14a0c46b480"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="199a5972ae8"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="199a5972bc8"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="199a5972c6d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="199a5972cdc"/>
+         <source file="..\obj\main.o" lastModified="199a598236a"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="199a5972e84"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="199a5972f5e"/>
+         <source file="..\obj\stm32f4xx_fsmc.o" lastModified="199a5973016"/>
+         <source file="..\obj\TFT.o" lastModified="199a59730de"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="199a5973194"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="199a59732cc"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="199a597335d"/>
+         <source file="..\obj\syscalls.o" lastModified="199a59733ed"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="199a59737d6"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="199a59738b8"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="199a5973a0b"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="199a5973b07"/>
+         <source file="..\obj\misc.o" lastModified="199a5973c0f"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="199a5973e7f"/>
+      </target>
+   </processor>
+</history>

@@ -44,7 +44,7 @@ func GetUsers(c *gin.Context) {
 	var users []models.User
 
 	// Использование GORM для выборки с лимитом и смещением
-	err := database.DbPostgres.Limit(limit).Offset(offset).Find(&users).Error
+	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("OrderList").Find(&users).Error
 	if err != nil {
 		utils.Logger.Error("Неудачный запрос|(user_handler.go|GetUsers|):", err)
 		c.JSON(http.StatusBadRequest, gin.H{"message": "Bad request"})

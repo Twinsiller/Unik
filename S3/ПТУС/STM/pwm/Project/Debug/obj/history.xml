@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\TFT_Screen -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\COM_LIIB -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\LIBS -I..\..\..\..\..\Users\Stend -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\cmsis_lib\include -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\cmsis_boot -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\cmsis_lib -I..\..\..\..\..\Users\Stend\Downloads\TEST_LAB_PID\cmsis -I..\..\..\..\..\Users\Stend\Downloads">
+      <target file="TFT.o" lastModified="19267b20f08">
+         <source file="..\..\..\TFT_Screen\TFT.c" lastModified="19267b11a92"/>
+      </target>
+      <target file="COM1_F4.o" lastModified="19267b20858">
+         <source file="..\..\..\COM_LIIB\COM1_F4.c" lastModified="19267b0e102"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="19267b21794">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="19267b0dc6d"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="19267b20fde">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="19267b0ddd8"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="19267b210eb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="19267b0dcec"/>
+      </target>
+      <target file="PID.o" lastModified="199a5e42ca9">
+         <source file="..\..\..\LIBS\PID.c" lastModified="19267b0e431"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="19267b2029c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="19267b0dfa4"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="19267b20901">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="19267b0d301"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="19267b21b3c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="19267b0e000"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="19267b20c75">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="19267b0dad3"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="19267b21198">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="19267b0d20b"/>
+      </target>
+      <target file="misc.o" lastModified="19267b21896">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="19267b0da75"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="19267b2134e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="19267b0dbe5"/>
+      </target>
+      <target file="GPIO_LIBS.o" lastModified="19267b219a6">
+         <source file="..\..\..\LIBS\GPIO_LIBS.c" lastModified="19267b0e2f4"/>
+      </target>
+      <target file="Led7_emulator.o" lastModified="19267b203b1">
+         <source file="..\..\..\TFT_Screen\Led7_emulator.c" lastModified="19267b1196f"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="19267b215ba">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="19267b0df5c"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="19267b20b1c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="19267b0de95"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="19267b20762">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="19267b0db5c"/>
+      </target>
+      <target file="delay.o" lastModified="19267b204af">
+         <source file="..\..\..\LIBS\delay.c" lastModified="19267b0e201"/>
+      </target>
+      <target file="syscalls.o" lastModified="19267b2124c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="19267b11823"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="19267b20dad">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="19267b0dd70"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="19267b216bf">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="19267b0de27"/>
+      </target>
+      <target file="main.o" lastModified="199a6189535">
+         <source file="..\..\..\main.c" lastModified="199a61890a7"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="19267b2061c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="19267b0e07d"/>
+      </target>
+   </processor>
+</history>

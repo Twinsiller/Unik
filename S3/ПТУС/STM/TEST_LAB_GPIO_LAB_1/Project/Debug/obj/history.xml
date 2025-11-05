@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wall -ffunction-sections -g -O0 -c -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -D__FPU_USED -DSTM32F407VG -DSTM32F4XX -I..\..\..\..\..\Users\Stend\Desktop -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO -I..\..\..\..\..\Users\Stend -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO\TFT_Screen -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO\cmsis_lib\include -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO\cmsis_lib -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO\cmsis -I..\..\..\..\..\Users\Stend\Desktop\TEST_LAB_GPIO\cmsis_boot">
+      <target file="TFT.o" lastModified="199a557f33f">
+         <source file="..\..\..\TFT_Screen\TFT.c" lastModified="1921f74e383"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="199a557fa98">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="1921f74c6ff"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="199a557f3f9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1921f74c78e"/>
+      </target>
+      <target file="stm32f4xx_flash.o" lastModified="199a557f4e8">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_flash.c" lastModified="1921f74c733"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="199a557e939">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="1921f74c84f"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="199a557ebb8">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1921f74c32b"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="199a557fcb6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="1921f74c87a"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="199a557f174">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="1921f74c670"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="199a557f595">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="1921f74c2da"/>
+      </target>
+      <target file="misc.o" lastModified="199a557fb5c">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="1921f74c631"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="199a557f717">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1921f74c6d3"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="199a557f805">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="1921f74c822"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="199a557f059">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1921f74c7f5"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="199a557eb22">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="1921f74c6a0"/>
+      </target>
+      <target file="stm32f4xx_fsmc.o" lastModified="199a557f251">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_fsmc.c" lastModified="1921f74c760"/>
+      </target>
+      <target file="syscalls.o" lastModified="199a557f640">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1921f74e312"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="199a557f906">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="1921f74c7c3"/>
+      </target>
+      <target file="main.o" lastModified="199a56b2c90">
+         <source file="..\..\..\main.c" lastModified="199a56b276d"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="199a557ea44">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="1921f74c8b3"/>
+      </target>
+   </processor>
+</history>
