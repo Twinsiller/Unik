@@ -417,3 +417,14 @@
 {"level":"info","msg":"Успешная передача моделей","time":"2025-11-02T17:51:33+03:00"}
 {"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-11-02T17:51:35+03:00"}
 {"level":"error","msg":"Delete isn't done(user_handler.go|DeleteUserById|):ERROR: update or delete on table \"users\" violates foreign key constraint \"fk_users_orders\" on table \"orders\" (SQLSTATE 23503)","time":"2025-11-02T17:51:36+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T16:49:19+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T16:50:13+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T16:54:32+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-05T16:54:32+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-05T16:54:32+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T16:56:40+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-05T16:56:40+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-05T16:56:40+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T17:05:49+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-05T17:05:49+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-05T17:05:49+03:00"}
