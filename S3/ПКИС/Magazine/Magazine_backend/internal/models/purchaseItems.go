@@ -17,3 +17,23 @@ type PurchaseItem struct {
 	ExpiryDate    *time.Time `gorm:"type:date" json:"expiry_date"`                      // срок годности / expiry date
 	BatchNumber   *string    `gorm:"type:text" json:"batch_number"`                     // номер партии / batch number
 }
+
+type CreatePurchaseItem struct {
+	PurchaseID int64 `json:"purchase_id"` // ID закупки / purchase ID
+	ProductID  int64 `json:"product_id"`  // ID товара / product ID
+
+	Quantity      float64    `json:"quantity"`       // количество / quantity
+	PurchasePrice float64    `json:"purchase_price"` // цена закупки / purchase price
+	ExpiryDate    *time.Time `json:"expiry_date"`    // срок годности / expiry date
+	BatchNumber   *string    `json:"batch_number"`   // номер партии / batch number
+}
+
+type UpdatePurchaseItem struct {
+	PurchaseID int64 `json:"purchase_id"` // ID закупки / purchase ID
+	ProductID  int64 `json:"product_id"`  // ID товара / product ID
+
+	Quantity      float64    `json:"quantity"`       // количество / quantity
+	PurchasePrice float64    `json:"purchase_price"` // цена закупки / purchase price
+	ExpiryDate    *time.Time `json:"expiry_date"`    // срок годности / expiry date
+	BatchNumber   *string    `json:"batch_number"`   // номер партии / batch number
+}

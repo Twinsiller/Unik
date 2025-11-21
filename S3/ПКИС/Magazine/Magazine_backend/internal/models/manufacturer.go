@@ -10,5 +10,17 @@ type Manufacturer struct {
 	Country     *string        `gorm:"type:text" json:"country"`       // страна производителя / country
 	ContactInfo datatypes.JSON `gorm:"type:jsonb" json:"contact_info"` // контакты (телефон, сайт) / contact info
 
-	Products []Product `gorm:"foreignKey:ManufacturerID;references:ID"` // список товаров / products by manufacturer
+	Products []Product `gorm:"foreignKey:ManufacturerID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE"` // список товаров / products by manufacturer
+}
+
+type CreateManufacturer struct {
+	Name        string         `json:"name"`
+	Country     *string        `json:"country"`
+	ContactInfo datatypes.JSON `json:"contact_info"`
+}
+
+type UpdateManufacturer struct {
+	Name        *string         `json:"name"`
+	Country     *string         `json:"country"`
+	ContactInfo *datatypes.JSON `json:"contact_info"`
 }

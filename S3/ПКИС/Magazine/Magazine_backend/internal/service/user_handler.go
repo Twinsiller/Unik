@@ -209,7 +209,7 @@ func UpdateUser(c *gin.Context) {
 	// Использование GORM для поиска профиля по ID
 	var user models.User
 
-	if err := database.DbPostgres.First(&user, id).Error; err != nil {
+	if err := database.DbPostgres.Preload("OrderList").First(&user, id).Error; err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"message": "user not found"})
 		} else {

@@ -6,5 +6,13 @@ type Category struct {
 
 	Name string `gorm:"type:text;unique;not null" json:"name"` // название категории / category name
 
-	Products []Product `gorm:"foreignKey:CategoryID;references:ID"` // товары этой категории / products in category
+	Products []Product `gorm:"foreignKey:CategoryID;references:ID;constraint:OnUpdate:CASCADE,OnDelete:CASCADE"` // товары этой категории / products in category
+}
+
+type CreateCategory struct {
+	Name string `json:"name"` // название категории / category name
+}
+
+type UpdateCategory struct {
+	Name *string `json:"name"` // название категории / category name
 }

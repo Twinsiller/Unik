@@ -10,8 +10,28 @@ type OrderItem struct {
 	ProductID int64   `gorm:"index;not null" json:"product_id"`   // ID товара / product ID
 	Product   Product `gorm:"foreignKey:ProductID;references:ID"` // связь / product
 
-	Quantity     float64 `gorm:"type:numeric(14,3);not null" json:"quantity"`       // количество / quantity
-	PricePerUnit float64 `gorm:"type:numeric(12,2);not null" json:"price_per_unit"` // цена за единицу / unit price
-	Discount     float64 `gorm:"type:numeric(12,2);default:0" json:"discount"`      // скидка / discount
-	VatRate      float64 `gorm:"type:numeric(5,2);default:0" json:"vat_rate"`       // ставка НДС / VAT rate
+	Quantity     float64  `gorm:"type:numeric(14,3);not null" json:"quantity"`       // количество / quantity
+	PricePerUnit float64  `gorm:"type:numeric(12,2);not null" json:"price_per_unit"` // цена за единицу / unit price
+	Discount     *float64 `gorm:"type:numeric(12,2);default:0" json:"discount"`      // скидка / discount
+	VatRate      *float64 `gorm:"type:numeric(5,2);default:0" json:"vat_rate"`       // ставка НДС / VAT rate
+}
+
+type CreateOrderItem struct {
+	OrderID   int64 `gorm:"index;not null" json:"order_id"`   // ID заказа / order ID
+	ProductID int64 `gorm:"index;not null" json:"product_id"` // ID товара / product ID
+
+	Quantity     float64  `gorm:"type:numeric(14,3);not null" json:"quantity"`       // количество / quantity
+	PricePerUnit float64  `gorm:"type:numeric(12,2);not null" json:"price_per_unit"` // цена за единицу / unit price
+	Discount     *float64 `gorm:"type:numeric(12,2);default:0" json:"discount"`      // скидка / discount
+	VatRate      *float64 `gorm:"type:numeric(5,2);default:0" json:"vat_rate"`       // ставка НДС / VAT rate
+}
+
+type UpdateOrderItem struct {
+	OrderID   *int64 `json:"order_id"`   // ID заказа / order ID
+	ProductID *int64 `json:"product_id"` // ID товара / product ID
+
+	Quantity     *float64 `json:"quantity"`       // количество / quantity
+	PricePerUnit *float64 `json:"price_per_unit"` // цена за единицу / unit price
+	Discount     *float64 `json:"discount"`       // скидка / discount
+	VatRate      *float64 `json:"vat_rate"`       // ставка НДС / VAT rate
 }

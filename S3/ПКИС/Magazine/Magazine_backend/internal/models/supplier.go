@@ -10,5 +10,17 @@ type Supplier struct {
 	ContactInfo datatypes.JSON `gorm:"type:jsonb" json:"contact_info"` // контакты / contact info
 	Preferred   bool           `gorm:"default:false" json:"preferred"` // пометка «основной поставщик» / preferred supplier
 
-	Purchases []Purchase `gorm:"foreignKey:SupplierID;references:ID"` // закупки у этого поставщика / purchases
+	Purchases []Purchase `gorm:"foreignKey:SupplierID;references:ID;OnUpdate:CASCADE,OnDelete:SET NULL"` // закупки у этого поставщика / purchases
+}
+
+type CreateSupplier struct {
+	Name        string         `json:"name"`         // название компании / supplier name
+	ContactInfo datatypes.JSON `json:"contact_info"` // контакты / contact info
+	Preferred   bool           `json:"preferred"`    // пометка «основной поставщик» / preferred supplier
+}
+
+type UpdateSupplier struct {
+	Name        *string         `json:"name"`
+	Country     *string         `json:"country"`
+	ContactInfo *datatypes.JSON `json:"contact_info"`
 }

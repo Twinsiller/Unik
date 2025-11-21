@@ -428,3 +428,184 @@
 {"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T17:05:49+03:00"}
 {"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-05T17:05:49+03:00"}
 {"level":"info","msg":"Передача моделей","time":"2025-11-05T17:05:49+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-05T17:17:32+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-05T17:17:32+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-05T17:17:32+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-05T17:17:32+03:00"}
+{"level":"info","msg":"GetUsers сработал: []","time":"2025-11-05T17:30:42+03:00"}
+{"level":"info","msg":"GetUsers сработал: []","time":"2025-11-05T17:40:50+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-11-05T17:51:30+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T18:09:01+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T18:09:01+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T18:09:01+03:00"}
+{"level":"fatal","msg":"Error loading .env file","time":"2025-11-07T18:30:29+03:00"}
+{"level":"fatal","msg":"Error loading .env file","time":"2025-11-07T18:30:44+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-07T18:31:41+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-07T18:31:41+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-07T18:31:41+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-07T18:31:42+03:00"}
+{"level":"info","msg":"GetManufactures сработал: []","time":"2025-11-07T18:32:19+03:00"}
+{"level":"error","msg":"Неудачный запрос|(manufacture_handler.go|GetManufactureById|):record not found","time":"2025-11-07T18:32:30+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T18:37:55+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T18:37:55+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T18:37:55+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-07T18:37:58+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-07T18:37:58+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-07T18:37:58+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-07T18:37:59+03:00"}
+{"level":"error","msg":"Сan't receive manufacturer(manufacturer_handler.go|CreateManufacturer|):Cashier: unsupported relations for schema Manufacturer","time":"2025-11-07T18:41:52+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T18:42:44+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T18:42:44+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T18:42:44+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-07T18:42:47+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-07T18:42:47+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-07T18:42:47+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-07T18:42:47+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{2 Twinsiller RvQ0Cc91F3ffUrtlKODZTzCdK_voOR8zDI0i-MtKsdVAkN_vB24s02TCmphNaozIVeYEGom3RZwvFKXdL6AYIp6heOI_laEfMxDmtp5CVzMA$#$10$#$8d798b0dfd578a1fe8f07fd7bf01dd5355dac742a47a3dc38b4b2d46$#$0f9110ec6c67546139795aba7864275fb28aec32782730cf660ba28c0f4d5810 Leha admin 0x1400057a120 2025-11-05 17:40:53.986638 +0300 MSK []}]","time":"2025-11-07T18:47:04+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T18:47:47+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T18:47:47+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T18:47:47+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-07T18:47:49+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-07T18:47:49+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-07T18:47:49+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-07T18:47:49+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x140003b2630 {\"email\": \"fish@gmail.ru\", \"telephone\": \"+7(921)842-21-35\"} []}]","time":"2025-11-07T18:47:56+03:00"}
+{"level":"error","msg":"Неудачный запрос|(manufacturer_handler.go|GetManufactureById|):record not found","time":"2025-11-07T18:48:04+03:00"}
+{"level":"error","msg":"Неудачный запрос|(manufacturer_handler.go|GetManufactureById|):record not found","time":"2025-11-07T18:48:07+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T21:01:41+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T21:01:41+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T21:01:41+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-07T21:01:49+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-07T21:01:49+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-07T21:01:49+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-07T21:01:49+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x14000404880 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []}]","time":"2025-11-07T21:02:18+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x14000404090 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []} {3 MEEEEEAT 0x140004040d0 {\"email\": \"meeeeeeeat@gmail.ru\", \"adress\": \"st.Green\", \"telephone\": \"+184(321)342-34-74\"} []}]","time":"2025-11-07T21:03:21+03:00"}
+{"level":"error","msg":"Неудачный запрос|(manufacturer_handler.go|GetManufactureById|):record not found","time":"2025-11-07T21:03:47+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x1400048ab10 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []}]","time":"2025-11-07T21:04:09+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-07T21:06:34+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-07T21:06:34+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-07T21:06:34+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-08T14:52:51+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-08T14:52:51+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-08T14:52:51+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-08T14:52:51+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-08T15:11:37+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-08T15:11:37+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-08T15:11:37+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-08T15:11:42+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-08T15:11:42+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-08T15:11:42+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-08T15:11:42+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: []","time":"2025-11-08T15:20:29+03:00"}
+{"level":"error","msg":"Неудачный запрос|(category_handler.go|GetCategoryById|):record not found","time":"2025-11-08T15:20:33+03:00"}
+{"level":"error","msg":"Data is bad|(category_handler.go|CreateManufacturer|)|:invalid character 'j' looking for beginning of value","time":"2025-11-08T15:21:21+03:00"}
+{"level":"error","msg":"Insert isn't done(category_handler.go|CreateManufacturer|):ERROR: duplicate key value violates unique constraint \"uni_categories_name\" (SQLSTATE 23505)","time":"2025-11-08T15:21:29+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: [{1 milk []} {2 fish []} {3 meat []} {4 juice []}]","time":"2025-11-08T15:27:17+03:00"}
+{"level":"error","msg":"Неудачный запрос|(category_handler.go|GetCategoryById|):record not found","time":"2025-11-08T15:27:25+03:00"}
+{"level":"error","msg":"Insert isn't done(category_handler.go|CreateManufacturer|):ERROR: duplicate key value violates unique constraint \"uni_categories_name\" (SQLSTATE 23505)","time":"2025-11-08T15:27:36+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-09T21:14:42+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-09T21:14:42+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-09T21:14:42+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-09T21:14:56+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-09T21:14:56+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-09T21:14:56+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-09T21:14:56+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-09T21:50:20+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-09T21:50:20+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-09T21:50:20+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-09T21:50:24+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-09T21:50:24+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-09T21:50:24+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-09T21:50:25+03:00"}
+{"level":"info","msg":"GetSuppliers сработал: [{1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} {2 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []}]","time":"2025-11-09T22:02:20+03:00"}
+{"level":"error","msg":"Неудачный запрос|(supply_handler.go|GetSupplierById|):record not found","time":"2025-11-09T22:02:27+03:00"}
+{"level":"info","msg":"GetSuppliers сработал: [{1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} {2 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []}]","time":"2025-11-09T22:04:02+03:00"}
+{"level":"info","msg":"GetSuppliers сработал: [{1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} {3 RReeDD_Official {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []}]","time":"2025-11-10T16:55:06+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-10T17:07:39+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-10T17:07:39+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-10T17:07:39+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-10T17:07:46+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-10T17:07:46+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-10T17:07:46+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-10T17:07:46+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-10T17:07:57+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-10T17:07:57+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-10T17:07:57+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-10T17:10:07+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-10T17:10:07+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-10T17:10:07+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-10T17:10:07+03:00"}
+{"level":"info","msg":"GetPurchases сработал: [{1 1 {1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000510430 []}]","time":"2025-11-10T17:10:56+03:00"}
+{"level":"info","msg":"GetSuppliers сработал: [{1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true [{1 1 {0   false []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000510b90 []}]} {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []}]","time":"2025-11-10T17:11:08+03:00"}
+{"level":"error","msg":"Insert isn't done(purchases_handler.go|CreatePurchase|):ERROR: insert or update on table \"purchases\" violates foreign key constraint \"fk_suppliers_purchases\" (SQLSTATE 23503)","time":"2025-11-10T17:11:52+03:00"}
+{"level":"info","msg":"GetPurchases сработал: [{1 1 {1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000510050 []} {2 4 {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []} 2025-11-10 17:11:36.230393 +0300 MSK 768.07 0x14000510080 []}]","time":"2025-11-10T17:19:08+03:00"}
+{"level":"info","msg":"GetSuppliers сработал: [{1 GreenTree {\"email\": \"greentree_official@gmail.ru\", \"adress\": \"st.Fater\", \"telephone\": \"+43(756)365-45-85\"} true []} {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false [{2 4 {0   false []} 2025-11-10 17:11:36.230393 +0300 MSK 768.07 0x14000511240 []} {1 4 {0   false []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000511270 []}]}]","time":"2025-11-10T17:19:41+03:00"}
+{"level":"error","msg":"Update isn't done(purchases_handler.go|UpdatePurchase|):ERROR: insert or update on table \"purchases\" violates foreign key constraint \"fk_suppliers_purchases\" (SQLSTATE 23503)","time":"2025-11-10T17:19:50+03:00"}
+{"level":"info","msg":"GetPurchases сработал: [{2 4 {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []} 2025-11-10 17:11:36.230393 +0300 MSK 768.07 0x14000511730 []} {1 4 {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000511760 []}]","time":"2025-11-10T17:20:11+03:00"}
+{"level":"info","msg":"GetPurchases сработал: [{1 4 {4 RReeDD {\"email\": \"rreedd@gmail.ru\", \"adress\": \"st.Rockers\", \"telephone\": \"+34(654)543-54-34\"} false []} 2025-11-10 17:10:18.756834 +0300 MSK 564.34 0x14000590d30 []}]","time":"2025-11-10T17:20:31+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T19:00:32+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T19:00:32+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T19:00:32+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-11T19:00:39+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-11T19:00:39+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-11T19:00:39+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-11T19:00:39+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x140002fa110 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []} {4 MEEEEEAT 0x140002fa150 {\"email\": \"meeeeeeeat@gmail.ru\", \"adress\": \"st.Green\", \"telephone\": \"+184(321)342-34-74\"} []}]","time":"2025-11-11T19:00:56+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: [{1 milk []} {3 meat []} {2 Fish []}]","time":"2025-11-11T19:01:08+03:00"}
+{"level":"error","msg":"Data is bad|(category_handler.go|CreateManufacturer|)|:invalid character '}' looking for beginning of object key string","time":"2025-11-11T19:49:52+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T20:59:41+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T20:59:41+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T20:59:41+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-11T20:59:47+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-11T20:59:47+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-11T20:59:47+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-11T20:59:47+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: [{1 milk []} {3 meat []} {2 Fish []}]","time":"2025-11-11T21:11:46+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x140002e6120 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []} {4 MEEEEEAT 0x140002e6170 {\"email\": \"meeeeeeeat@gmail.ru\", \"adress\": \"st.Green\", \"telephone\": \"+184(321)342-34-74\"} []}]","time":"2025-11-11T21:11:52+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: [{1 milk []} {3 meat []} {2 Fish []}]","time":"2025-11-11T21:12:00+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T21:15:09+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T21:15:09+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T21:15:09+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-11T21:15:13+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-11T21:15:13+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-11T21:15:13+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-11T21:15:13+03:00"}
+{"level":"info","msg":"GetManufacturers сработал: [{2 TheFisher 0x14000030d10 {\"email\": \"fish@gmail.ru\", \"adress\": \"st.Broadway\", \"telephone\": \"+7(921)842-21-35\"} []} {4 MEEEEEAT 0x14000030d50 {\"email\": \"meeeeeeeat@gmail.ru\", \"adress\": \"st.Green\", \"telephone\": \"+184(321)342-34-74\"} []}]","time":"2025-11-11T21:15:40+03:00"}
+{"level":"info","msg":"GetProducts сработал: [{1 juice \u003cnil\u003e \u003cnil\u003e 0x1400000e3a8 0x140002b4810  0x140002ae1d0 45.5 56 2025-11-11 21:15:17.125563 +0300 MSK [] [] [] []}]","time":"2025-11-11T21:15:46+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T21:32:08+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T21:32:08+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T21:32:08+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-11T21:32:12+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-11T21:32:12+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-11T21:32:12+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-11T21:32:12+03:00"}
+{"level":"error","msg":"Insert isn't done(product_handler.go|CreateProduct|):ERROR: duplicate key value violates unique constraint \"uni_products_barcode\" (SQLSTATE 23505)","time":"2025-11-11T21:32:20+03:00"}
+{"level":"error","msg":"Insert isn't done(product_handler.go|CreateProduct|):ERROR: duplicate key value violates unique constraint \"uni_products_barcode\" (SQLSTATE 23505)","time":"2025-11-11T21:32:26+03:00"}
+{"level":"error","msg":"Insert isn't done(product_handler.go|CreateProduct|):ERROR: duplicate key value violates unique constraint \"uni_products_barcode\" (SQLSTATE 23505)","time":"2025-11-11T21:32:30+03:00"}
+{"level":"error","msg":"Insert isn't done(product_handler.go|CreateProduct|):ERROR: insert or update on table \"products\" violates foreign key constraint \"fk_manufacturers_products\" (SQLSTATE 23503)","time":"2025-11-11T21:32:45+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T22:06:25+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T22:06:25+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T22:06:25+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-11T22:06:28+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-11T22:06:28+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-11T22:06:28+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-11T22:06:28+03:00"}
+{"level":"info","msg":"GetProducts сработал: [{1 juice 0x140003ce168 0x1400013aa20 \u003cnil\u003e \u003cnil\u003e  0x14000320190 45.5 56 2025-11-11 21:15:17.125563 +0300 MSK [] [] [] []} {6 juice 0x140003ce1b0 0x1400013aa50 0x140003ce1a8 0x14000252050  0x14000320200 45.5 56 2025-11-11 21:32:51.150734 +0300 MSK [] [] [] []} {7 juice 0x140003ce210 0x1400013aa50 0x140003ce1f8 0x140002520a0 шт 0x14000320280 45.5 56 2025-11-11 22:11:42.629774 +0300 MSK [] [] [] []}]","time":"2025-11-11T22:24:05+03:00"}
+{"level":"error","msg":"Неудачный запрос|(product_handler.go|GetProductById|):record not found","time":"2025-11-11T22:24:41+03:00"}
+{"level":"info","msg":"GetProducts сработал: [{6 juice 0x1400000eae8 0x140001d1d40 0x1400000eae0 0x14000306370  0x14000030a50 45.5 56 2025-11-11 21:32:51.150734 +0300 MSK [] [] [] []} {7 juice 0x1400000ec08 0x140001d1d40 0x1400000ec00 0x14000306410 шт 0x14000030ad0 45.5 56 2025-11-11 22:11:42.629774 +0300 MSK [] [] [] []} {1 bobo 0x1400000ed18 0x140001d1ce0 \u003cnil\u003e \u003cnil\u003e  0x14000030b40 45.5 56 2025-11-11 21:15:17.125563 +0300 MSK [] [] [] []}]","time":"2025-11-11T22:44:57+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-11T23:33:45+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-11T23:33:45+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-11T23:33:45+03:00"}
+{"level":"info","msg":"Проверка подключения\nuser=gorm password=gorm host=localhost port=5432 dbname=magazine sslmode=disable","time":"2025-11-13T04:05:48+03:00"}
+{"level":"info","msg":"Успешное подключение к базе данных","time":"2025-11-13T04:05:48+03:00"}
+{"level":"info","msg":"Передача моделей","time":"2025-11-13T04:05:48+03:00"}
+{"level":"info","msg":"Успешная передача моделей","time":"2025-11-13T04:05:48+03:00"}
+{"level":"info","msg":"GetCategoriess сработал: []","time":"2025-11-13T04:06:56+03:00"}
+{"level":"error","msg":"Insert isn't done(orderItem_handler.go|CreateOrderItem|):ERROR: insert or update on table \"order_items\" violates foreign key constraint \"fk_orders_item_list\" (SQLSTATE 23503)","time":"2025-11-13T04:07:00+03:00"}
+{"level":"info","msg":"GetOrders сработал: []","time":"2025-11-13T04:07:07+03:00"}
+{"level":"error","msg":"Insert isn't done(order_handler.go|CreateOrder|):ERROR: insert or update on table \"orders\" violates foreign key constraint \"fk_users_order_list\" (SQLSTATE 23503)","time":"2025-11-13T04:07:30+03:00"}
+{"level":"info","msg":"GetUsers сработал: [{2 Twinsiller RvQ0Cc91F3ffUrtlKODZTzCdK_voOR8zDI0i-MtKsdVAkN_vB24s02TCmphNaozIVeYEGom3RZwvFKXdL6AYIp6heOI_laEfMxDmtp5CVzMA$#$10$#$8d798b0dfd578a1fe8f07fd7bf01dd5355dac742a47a3dc38b4b2d46$#$0f9110ec6c67546139795aba7864275fb28aec32782730cf660ba28c0f4d5810 Leha admin 0x1400040d470 2025-11-05 17:40:53.986638 +0300 MSK []}]","time":"2025-11-13T04:08:13+03:00"}
+{"level":"warning","msg":"Завершение работы сервера...","time":"2025-11-14T20:55:18+03:00"}
+{"level":"info","msg":"Пойман сигнал (Ctrl + C):interrupt","time":"2025-11-14T20:55:18+03:00"}
+{"level":"info","msg":"Server exiting","time":"2025-11-14T20:55:18+03:00"}

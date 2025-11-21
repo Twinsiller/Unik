@@ -15,3 +15,17 @@ type Purchase struct {
 
 	Items []PurchaseItem `gorm:"foreignKey:PurchaseID;references:ID"` // список товаров в закупке / purchase items
 }
+
+type CreatePurchase struct {
+	SupplierID int64 `json:"supplier_id"`
+
+	TotalAmount   float64 `json:"total_amount"`
+	InvoiceNumber *string `json:"invoice_number"`
+}
+
+type UpdatePurchase struct {
+	SupplierID *int64 `json:"supplier_id"`
+
+	TotalAmount   *float64 `json:"total_amount"`
+	InvoiceNumber *string  `json:"invoice_number"`
+}

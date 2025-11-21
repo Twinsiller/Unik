@@ -17,3 +17,22 @@ type Stock struct {
 
 	Movements []StockMovement `gorm:"foreignKey:StockID;references:ID"` // движение по этой партии / stock movements
 }
+
+type CreateStock struct {
+	ProductID     int64      `json:"product_id"`     // ID товара / product ID
+	Quantity      float64    `json:"quantity"`       // количество / quantity
+	BatchNumber   *string    `json:"batch_number"`   // номер партии / batch number
+	PurchasePrice *float64   `json:"purchase_price"` // цена закупки / purchase price
+	ReceivedAt    time.Time  `json:"received_at"`    // дата приёмки / received date
+	ExpiryDate    *time.Time `json:"expiry_date"`    // срок годности / expiry date
+}
+
+type UpdateStock struct {
+	ProductID     *int64     `json:"product_id"`     // ID товара / product ID
+	Quantity      *float64   `json:"quantity"`       // количество / quantity
+	BatchNumber   *string    `json:"batch_number"`   // номер партии / batch number
+	PurchasePrice *float64   `json:"purchase_price"` // цена закупки / purchase price
+	ReceivedAt    *time.Time `json:"received_at"`    // дата приёмки / received date
+	ExpiryDate    *time.Time `json:"expiry_date"`    // срок годности / expiry date
+
+}

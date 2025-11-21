@@ -28,7 +28,7 @@ func GetOrders(c *gin.Context) {
 
 	var orders []models.Order
 
-	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Cashier").Find(&orders).Error
+	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Cashier").Preload("ItemList").Find(&orders).Error
 	if err != nil {
 		utils.Logger.Error("Неудачный запрос|(order_handler.go|GetOrders|):", err)
 		c.JSON(http.StatusBadRequest, gin.H{"message": "Bad request"})
@@ -45,7 +45,7 @@ func GetOrderById(c *gin.Context) {
 
 	var order models.Order
 
-	err := database.DbPostgres.Preload("Cashier").First(&order, id).Error
+	err := database.DbPostgres.Preload("Cashier").Preload("ItemList").First(&order, id).Error
 	if err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"message": "order not found"})
@@ -60,7 +60,6 @@ func GetOrderById(c *gin.Context) {
 }
 
 func CreateOrder(c *gin.Context) {
-	print("Yep")
 	req := models.CreateOrder{}
 
 	if err := c.BindJSON(&req); err != nil {
@@ -68,7 +67,7 @@ func CreateOrder(c *gin.Context) {
 		utils.Logger.Error("Data is bad|(order_handler.go|CreateOrder|)|:", err)
 		return
 	}
-	print("Yep2")
+
 	order := models.Order{
 		CashierID:     req.CashierID,
 		TotalAmount:   req.TotalAmount,
@@ -82,7 +81,7 @@ func CreateOrder(c *gin.Context) {
 		return
 	}
 
-	if err := database.DbPostgres.Preload("Cashier").Last(&order).Error; err != nil {
+	if err := database.DbPostgres.Preload("Cashier").Preload("ItemList").Last(&order).Error; err != nil {
 		utils.Logger.Error("Сan't receive order(order_handler.go|CreateOrder|):", err)
 		c.JSON(http.StatusInternalServerError, gin.H{"message": "internal server error"})
 		database.DbPostgres.Delete(&order)
@@ -125,7 +124,7 @@ func UpdateOrder(c *gin.Context) {
 
 	var order models.Order
 
-	err := database.DbPostgres.Preload("Cashier").First(&order, id).Error
+	err := database.DbPostgres.Preload("Cashier").Preload("ItemList").First(&order, id).Error
 	if err != nil {
 		if err == gorm.ErrRecordNotFound {
 			c.JSON(http.StatusNotFound, gin.H{"message": "order not found"})
