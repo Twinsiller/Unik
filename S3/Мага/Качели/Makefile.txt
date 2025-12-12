@@ -1,0 +1,23 @@
+# Простой Makefile для AVR
+MCU=atmega32              # Тип используемого микроконтроллера
+CC=avr-gcc                # Компилируем с помощью avr-gcc
+OBJDIR=obj                 # Каталог для объектных файлов
+OUTFILE=main.hex          # Имя конечного HEX-файла
+
+# Список ваших исходных файлов (.c, .cpp)
+SRC=main.c utils.c
+OBJ=$(patsubst %.c,$(OBJDIR)/%.o,$(SRC))
+
+all: $(OUTFILE)
+
+$(OUTFILE): $(OBJ)
+    $(CC) -mmcu=$(MCU) -Os -Wl,-Map=$*.map -o $@ $^ -lm
+
+$(OBJDIR)/%.o : %.c
+    mkdir -p $(dir $@)
+    $(CC) -c -Wall -O2 -std=c99 -mmcu=$(MCU) -I./inc $< -o $@
+
+clean:
+    rm -f $(OBJDIR)/*.o *.hex *.map
+
+.PHONY: all clean
