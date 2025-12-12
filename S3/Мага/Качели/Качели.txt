@@ -1,0 +1,38 @@
+Качели
+#include <avr/io.h>
+#include <util/delay.h>
+
+// Макросы для удобства обработки кнопок
+#define BUTTON_FORWARD ((PINB & _BV(PINB0)) != 0)
+#define BUTTON_BACKWARD ((PINB & _BV(PINB1)) != 0)
+
+// Функция для настройки I/O
+void setupIO()
+{
+    DDRB &= ~(_BV(DDB0) | _BV(DDB1));       // Конфигурируем PB0 и PB1 как входы
+    PORTB |= (_BV(PORTB0) | _BV(PORTB1));  // Активируем подтяжку для устойчивых уровней
+    
+    DDRD |= _BV(DDD0);                      // PD0 настроим как выход (управляемый сигнал для реле/двигателя)
+}
+
+// Основная логика программы
+int main(void)
+{
+    setupIO();
+
+    while (1)
+    {
+        if (BUTTON_FORWARD && !BUTTON_BACKWARD) // Нажата кнопка "Вперед"
+        {
+            PORTD |= _BV(PORTD0);           // Подаем питание на двигатель
+            _delay_ms(1000);                // Ждем секунду (можно регулировать)
+            PORTD &= ~_BV(PORTD0);          // Отключаем питание
+        }
+        else if (!BUTTON_FORWARD && BUTTON_BACKWARD) // Нажата кнопка "Назад"
+        {
+            PORTD |= _BV(PORTD0);           // Подаем питание на двигатель
+            _delay_ms(1000);                // Ждем секунду (можно регулировать)
+            PORTD &= ~_BV(PORTD0);          // Отключаем питание
+        }
+    }
+}
