@@ -1336,18 +1336,15 @@ G0 F600 X150.989 Y148.16 Z1.1
 G0 F7200 X148.427 Y146.947
 ;TIME_ELAPSED:40.411234
 ;LAYER:5
-
 ; === Temperature Change Template ===
-M104 S[TEMP] ; Set new temperature
+M104 S210 ; Set new temperature
 G4 P1000 ; Wait 1 second
 M400 ; Wait for moves
-M109 S[TEMP] ; Wait for temperature
-
+M109 S210 ; Wait for temperature
 ; === Speed Change Template ===
-M220 S[SPEED] ; Change speed percentage
+M220 S80 ; Change speed percentage
 G4 P500 ; Short pause
 M400 ; Wait for moves
-
 ;TYPE:WALL-INNER
 ;MESH:Ice_Wisp_1.stl
 G1 F1500 X148.022 Y147.749 E19.66957
@@ -2851,6 +2848,14 @@ G0 F600 X151.578 Y148.235 Z2.1
 G0 F7200 X147.597 Y147.597
 ;TIME_ELAPSED:81.473436
 ;LAYER:10
+; === Fan Control Template ===
+M106 S158 ; Set fan speed
+G4 P1000 ; Wait 1 second
+; === Temperature Change Template ===
+M104 S215 ; Set new temperature
+G4 P1000 ; Wait 1 second
+M400 ; Wait for moves
+M109 S215 ; Wait for temperature
 ;TYPE:FILL
 ;MESH:Ice_Wisp_1.stl
 G1 F2700 X150.446 Y150.446 E48.97162
