@@ -1,0 +1,14 @@
+; === Temperature Change Template ===
+M104 S[TEMP] ; Set new temperature
+G4 P1000 ; Wait 1 second
+M400 ; Wait for moves
+M109 S[TEMP] ; Wait for temperature
+
+; === Speed Change Template ===
+M220 S[SPEED] ; Change speed percentage
+G4 P500 ; Short pause
+M400 ; Wait for moves
+
+; === Fan Control Template ===
+M106 S[FAN] ; Set fan speed
+G4 P1000 ; Wait 1 second
