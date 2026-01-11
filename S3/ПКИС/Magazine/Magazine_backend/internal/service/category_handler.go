@@ -6,7 +6,6 @@ import (
 	"Magazine_backend/pkg/utils"
 	"errors"
 	"net/http"
-	"strconv"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
@@ -26,23 +25,23 @@ import (
 // @Failure		500		{object}	errorResponse
 // @Router			/v1/categories [get]
 func GetCategories(c *gin.Context) {
-	// Получение параметров из запроса
-	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))   // Номер страницы, по умолчанию 1
-	limit, _ := strconv.Atoi(c.DefaultQuery("limit", "5")) // Количество элементов на странице, по умолчанию 5
+	// // Получение параметров из запроса
+	// page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))   // Номер страницы, по умолчанию 1
+	// limit, _ := strconv.Atoi(c.DefaultQuery("limit", "5")) // Количество элементов на странице, по умолчанию 5
 
-	if page < 1 {
-		page = 1
-	}
-	if limit < 1 {
-		limit = 5
-	}
+	// if page < 1 {
+	// 	page = 1
+	// }
+	// if limit < 1 {
+	// 	limit = 5
+	// }
 
-	offset := (page - 1) * limit // Вычисление смещения
+	// offset := (page - 1) * limit // Вычисление смещения
 
 	var categories []models.Category
 
 	// Использование GORM для выборки с лимитом и смещением
-	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Products").Find(&categories).Error
+	err := database.DbPostgres.Find(&categories).Error //.Limit(limit).Offset(offset).Preload("Products")
 	if err != nil {
 		utils.Logger.Error("Неудачный запрос|(categories_handler.go|GetCategories|):", err)
 		c.JSON(http.StatusBadRequest, gin.H{"message": "Bad request"})

@@ -9,6 +9,8 @@ import (
 	"strconv"
 
 	"github.com/gin-gonic/gin"
+	"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/mongo/gridfs"
 	"gorm.io/gorm"
 )
 
@@ -49,9 +51,20 @@ func GetProducts(c *gin.Context) {
 		return
 	}
 
-	c.JSON(http.StatusOK, products)
+	var count int64
+	database.DbPostgres.Model(&models.Product{}).Count(&count)
 
-	utils.Logger.Printf("GetProducts сработал: %v", products)
+	results := struct {
+		Items []models.Product `json:"items"`
+		Count int64            `json:"count"`
+	}{
+		Items: products,
+		Count: count,
+	}
+
+	c.JSON(http.StatusOK, results)
+
+	utils.Logger.Printf("GetProducts сработал: %v", results)
 }
 
 // @Summary		Get product by ID
@@ -130,6 +143,105 @@ func CreateProduct(c *gin.Context) {
 		return
 	}
 	c.JSON(http.StatusCreated, product)
+}
+
+func UploadPhotoProduct(c *gin.Context) {
+	if database.DbMongo == nil {
+		c.JSON(500, gin.H{"error": "mongo not initialized"})
+		utils.Logger.Error("Mongo not initialized(product_handler.go|UploadPhotoProduct|):")
+		return
+	}
+
+	// 1. id из URL
+	idParam := c.Param("id")
+	id, err := strconv.ParseInt(idParam, 10, 64)
+	if err != nil {
+		utils.Logger.Error("Invalid product id(product_handler.go|UploadPhotoProduct|):", err)
+		c.JSON(400, gin.H{"error": "invalid product id"})
+		return
+	}
+
+	// 2. файл (multipart)
+	file, err := c.FormFile("file")
+	if err != nil {
+		utils.Logger.Error("File is required(product_handler.go|UploadPhotoProduct|):", err)
+		c.JSON(400, gin.H{"error": "file is required"})
+		return
+	}
+
+	f, err := file.Open()
+	if err != nil {
+		utils.Logger.Error("Cannot open file(product_handler.go|UploadPhotoProduct|):", err)
+		c.JSON(500, gin.H{"error": "cannot open file"})
+		return
+	}
+	defer f.Close()
+
+	// 3. загрузка в Mongo GridFS
+	photoID, err := database.UploadImage(
+		database.DbMongo.Database(database.DBMongoName),
+		file.Filename,
+		f,
+	)
+	if err != nil {
+		utils.Logger.Error("Upload failed(product_handler.go|UploadPhotoProduct|):", err)
+		c.JSON(500, gin.H{"error": "upload failed"})
+		return
+	}
+
+	// 4. сохранить photoID в Postgres
+	if err := database.DbPostgres.Model(&models.Product{}).
+		Where("id = ?", id).
+		Update("photo_id", photoID).Error; err != nil {
+		utils.Logger.Error("Db update failed(product_handler.go|UploadPhotoProduct|):", err)
+		c.JSON(500, gin.H{"error": "db update failed"})
+		return
+	}
+
+	c.JSON(200, gin.H{"photo_id": photoID})
+}
+
+func GetPhotoProduct(c *gin.Context) {
+	// 1. id товара
+	id, err := strconv.ParseInt(c.Param("id"), 10, 64)
+	if err != nil {
+		c.JSON(400, gin.H{"error": "invalid product id"})
+		return
+	}
+
+	var product models.Product
+	// 2. получить photo_id из Postgres
+	database.DbPostgres.First(&product, id)
+	if product.PhotoID == nil {
+		c.JSON(404, gin.H{"error": "photo not found"})
+		return
+	}
+
+	// 3. ObjectID
+	objID, err := primitive.ObjectIDFromHex(*product.PhotoID)
+	if err != nil {
+		c.JSON(500, gin.H{"error": "invalid photo id"})
+		return
+	}
+
+	// 4. GridFS
+	bucket, err := gridfs.NewBucket(
+		database.DbMongo.Database(database.DBMongoName),
+	)
+	if err != nil {
+		c.JSON(500, gin.H{"error": "gridfs error"})
+		return
+	}
+
+	// 5. headers
+	c.Header("Content-Type", "image/jpeg") // или динамически
+	c.Status(200)
+
+	// 6. stream
+	if _, err := bucket.DownloadToStream(objID, c.Writer); err != nil {
+		c.JSON(500, gin.H{"error": "download failed"})
+		return
+	}
 }
 
 // @Summary		Update an existing product

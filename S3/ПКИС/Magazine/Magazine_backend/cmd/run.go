@@ -5,6 +5,7 @@ import (
 	"Magazine_backend/internal/database"
 	"Magazine_backend/internal/models"
 	"Magazine_backend/pkg/utils"
+	"context"
 
 	"github.com/joho/godotenv"
 )
@@ -22,6 +23,10 @@ func Run() error {
 		return err
 	}
 	defer database.Close()
+	if err := database.ConnectMongoDB(); err != nil {
+		return err
+	}
+	defer database.DbMongo.Disconnect(context.Background())
 
 	utils.Logger.Info("Передача моделей")
 	database.CreateObjDB(

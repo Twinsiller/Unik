@@ -18,6 +18,7 @@ func Apies() {
 	// Маршрут для Swagger UI
 	//router.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
+	router.Use(enableCORS())
 	// Создание нового профиля
 	router.POST("/register", service.CreateUser)
 
@@ -139,6 +140,12 @@ func Apies() {
 		// Создание нового заказа
 		products.POST("", service.CreateProduct)
 
+		// Загрузка фото продукта
+		products.POST("/:id/photo", service.UploadPhotoProduct)
+
+		// Выгрузка фото продукта
+		products.GET("/:id/photo", service.GetPhotoProduct)
+
 		// // Обновление существующего заказа
 		products.PUT("/:id", service.UpdateProduct)
 
@@ -198,7 +205,7 @@ func Apies() {
 		stocks.DELETE("/:id", service.DeleteStock)
 	}
 
-	stockMovements := routerv1.Group("/stocks")
+	stockMovements := routerv1.Group("/stockMovements")
 	{
 		// Получение всех заказов
 		stockMovements.GET("", service.GetStockMovements)
