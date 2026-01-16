@@ -1,34 +1,3 @@
-<!-- <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import Product from '@/components/Product.vue'
-
-type Product = {
-  id: number
-  name: string
-}
-
-const products = ref<Product[]>([])
-
-onMounted(async () => {
-  const res = await fetch('http://localhost:8080/v1/products')
-  const data = await res.json()
-
-  products.value = data.map((p: any) => ({
-    ...p,
-    imageUrl: `http://localhost:8080/v1/products/${p.id}/photo`
-  }))
-})
-</script>
-
-<template>
-  <h1>Products</h1>
-  <Product
-  v-for="p in products"
-  :key="p.id"
-  :product="p"
-/>
-</template> -->
-
 <script setup lang="ts">
   import { ref, computed, onMounted } from 'vue'
   import { watch } from 'vue'
