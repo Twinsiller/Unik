@@ -44,7 +44,7 @@ func GetProducts(c *gin.Context) {
 	var products []models.Product
 
 	// Использование GORM для выборки с лимитом и смещением
-	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Manufacturer").Preload("Category").Preload("OrderItems").Preload("PurchaseItems").Preload("Stocks").Preload("StockMovements").Find(&products).Error
+	err := database.DbPostgres.Limit(limit).Offset(offset).Preload("Manufacturer").Preload("Category").Find(&products).Error //.Preload("OrderItems").Preload("PurchaseItems").Preload("Stocks").Preload("StockMovements")
 	if err != nil {
 		utils.Logger.Error("Неудачный запрос|(product_handler.go|GetProducts|):", err)
 		c.JSON(http.StatusBadRequest, gin.H{"message": "Bad request"})
